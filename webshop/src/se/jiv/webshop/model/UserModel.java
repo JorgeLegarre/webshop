@@ -1,7 +1,5 @@
 package se.jiv.webshop.model;
 
-import se.jiv.webshop.model.ProductModel.Builder;
-
 public final class UserModel {
 	public static final int DEFAULT_USER_ID = -1;
 	

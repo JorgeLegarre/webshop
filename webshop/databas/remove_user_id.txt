@@ -1,0 +1,15 @@
+ALTER TABLE `webshop`.`shopping_cart` 
+DROP FOREIGN KEY `user_shopping_FK`;
+ALTER TABLE `webshop`.`shopping_cart` 
+CHANGE COLUMN `user_id` `user_email` VARCHAR(50) NOT NULL ;
+ALTER TABLE `webshop`.`shopping_cart` 
+ADD CONSTRAINT `user_shopping_FK`
+  FOREIGN KEY (`user_email`)
+  REFERENCES `webshop`.`users` (`email`)
+  ON DELETE CASCADE
+  ON UPDATE NO ACTION;
+ALTER TABLE `webshop`.`users` 
+DROP COLUMN `id`,
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (`email`),
+DROP INDEX `email_UNIQUE` ;

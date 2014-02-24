@@ -85,9 +85,11 @@ public class ShoppingCartJUnit {
 	@Before
 	public void setUp() throws WebshopAppException {
 		UserJUnit.insertUser(user1);
-		prod_id1 = ProductJUnit.insertProduct(ProductModel.builder("Prod1", 1)
+		prod_id1 = ProductJUnit.insertProduct(new ProductModel
+				.Builder("Prod1", 1)
 				.description("desc1").cost(1).rrp(1).build());
-		prod_id2 = ProductJUnit.insertProduct(ProductModel.builder("Prod2", 1)
+		prod_id2 = ProductJUnit.insertProduct(new ProductModel
+				.Builder("Prod2", 1)
 				.description("desc2").cost(2).rrp(2).build());
 	}
 

@@ -59,8 +59,8 @@ public class ProductDAO extends GeneralDAO implements ProductRepository {
 			}
 		}
 
-		ProductModel newProduct = ProductModel
-				.builder(product.getName(), product.getProductType())
+		ProductModel newProduct = new ProductModel
+				.Builder(product.getName(), product.getProductType())
 				.id(generatedId).description(product.getDescription())
 				.cost(product.getCost()).rrp(product.getRrp())
 				.categories(product.getCategories()).build();
@@ -262,7 +262,8 @@ public class ProductDAO extends GeneralDAO implements ProductRepository {
 
 		List<Integer> categories = getCategories(conn, id);
 
-		return ProductModel.builder(name, productType).id(id)
+		return new ProductModel
+				.Builder(name, productType).id(id)
 				.description(description).cost(price).rrp(rrp)
 				.categories(categories).build();
 	}

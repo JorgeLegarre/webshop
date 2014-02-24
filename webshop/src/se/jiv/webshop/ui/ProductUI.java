@@ -31,7 +31,8 @@ public final class ProductUI extends GeneralUI {
 
 		}
 
-		return ProductModel.builder(name, productType).description(description)
+		return new ProductModel
+				.Builder(name, productType).description(description)
 				.cost(cost).rrp(rrp).categories(categories).id(id).build();
 	}
 

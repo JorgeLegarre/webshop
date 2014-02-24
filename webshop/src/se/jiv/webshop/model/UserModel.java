@@ -1,6 +1,11 @@
 package se.jiv.webshop.model;
 
+import se.jiv.webshop.model.ProductModel.Builder;
+
 public final class UserModel {
+	public static final int DEFAULT_USER_ID = -1;
+	
+	private final int id;
 	private final String email;
 	private final String password;
 	private final String firstname;
@@ -23,10 +28,11 @@ public final class UserModel {
 		private final String postcode;
 
 		// optional fields
+		private int id;
 		private String dob;
 		private String telephone;
 		private String address2;
-
+		
 		public Builder(String email, String password, String firstname,
 				String lastname, String address1, String town, String postcode) {
 			this.email = email;
@@ -36,6 +42,16 @@ public final class UserModel {
 			this.address1 = address1;
 			this.town = town;
 			this.postcode = postcode;
+			
+			this.id = DEFAULT_USER_ID;
+			this.dob = "";
+			this.telephone = "";
+			this.address2 = "";
+		}
+
+		public Builder id(int id) {
+			this.id = id;
+			return this;
 		}
 
 		public Builder dob(String dob) {
@@ -59,6 +75,7 @@ public final class UserModel {
 	}
 
 	private UserModel(Builder builder) {
+		this.id = builder.id;
 		this.email = builder.email;
 		this.password = builder.password;
 		this.firstname = builder.firstname;
@@ -69,6 +86,10 @@ public final class UserModel {
 		this.address2 = builder.address2;
 		this.town = builder.town;
 		this.postcode = builder.postcode;
+	}
+	
+	public int getId(){
+		return id;
 	}
 
 	public String getEmail() {
@@ -114,8 +135,8 @@ public final class UserModel {
 	@Override
 	public String toString() {
 		return String
-				.format("User: %s Firstname: %s Lastname: %s Dob: %s Telephone: %s Address: %s %s %s %s ",
-						getEmail(), getFirstname(), getLastname(), getDob(),
+				.format("Id: %s, User: %s, Firstname: %s, Lastname: %s, Dob: %s, Telephone: %s, Address: %s %s %s %s ",
+						getId(),getEmail(), getFirstname(), getLastname(), getDob(),
 						getTelephone(), getAddress1(), getAddress2(),
 						getTown(), getPostcode());
 	}
@@ -123,7 +144,7 @@ public final class UserModel {
 	@Override
 	public int hashCode() {
 		int result = 1;
-		result += 37 * this.email.hashCode();
+		result += 37 * id;
 		result += 37 * this.getClass().hashCode();
 
 		return result;
@@ -139,7 +160,7 @@ public final class UserModel {
 			UserModel otherUser = (UserModel) other;
 			boolean isSameClass = this.getClass().equals(otherUser.getClass());
 
-			return (email.equals(otherUser.email)) && isSameClass;
+			return (this.id == otherUser.id) && isSameClass;
 		}
 
 		return false;

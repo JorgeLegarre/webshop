@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `webshop` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `webshop`;
+CREATE DATABASE  IF NOT EXISTS `webshop_egen` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `webshop_egen`;
 -- MySQL dump 10.13  Distrib 5.6.13, for osx10.6 (i386)
 --
 -- Host: 127.0.0.1    Database: webshop
@@ -32,7 +32,7 @@ CREATE TABLE `categories` (
   UNIQUE KEY `name_UNIQUE` (`name`),
   KEY `CATEGORY_STAFF_FK_idx` (`staff_responsible`),
   CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=140 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,7 +41,7 @@ CREATE TABLE `categories` (
 
 LOCK TABLES `categories` WRITE;
 /*!40000 ALTER TABLE `categories` DISABLE KEYS */;
-INSERT INTO `categories` VALUES (1,'Books',27),(2,'Children',63),(3,'Clothes',63),(4,'Computing',58),(5,'Electronics',58),(6,'Films',27),(7,'Gardening',63),(8,'Mens',63),(9,'Sports & outdoors',71),(10,'Toys',62),(11,'Womens',63),(15,'asdfadsfa',1),(16,'adsfad',1),(17,'?lj',1),(18,'wer',1);
+INSERT INTO `categories` VALUES (1,'Books',27),(2,'Children',63),(3,'Clothes',63),(4,'Computing',58),(5,'Electronics',58),(6,'Films',27),(7,'Gardening',63),(8,'Mens',63),(9,'Sports & outdoors',71),(10,'Toys',62),(11,'Womens',63);
 /*!40000 ALTER TABLE `categories` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -68,7 +68,7 @@ CREATE TABLE `product_categories` (
 
 LOCK TABLES `product_categories` WRITE;
 /*!40000 ALTER TABLE `product_categories` DISABLE KEYS */;
-INSERT INTO `product_categories` VALUES (1,1),(2,1),(3,1),(2,2);
+INSERT INTO `product_categories` VALUES (2,1),(33,1),(37,1),(39,1),(40,1),(40,4),(33,6),(34,6),(2,8),(2,11),(34,11),(37,11);
 /*!40000 ALTER TABLE `product_categories` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -86,7 +86,7 @@ CREATE TABLE `products` (
   `cost` double(10,2) DEFAULT NULL,
   `rrp` double(10,2) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=294 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -95,7 +95,7 @@ CREATE TABLE `products` (
 
 LOCK TABLES `products` WRITE;
 /*!40000 ALTER TABLE `products` DISABLE KEYS */;
-INSERT INTO `products` VALUES (1,'testName','testDesc',99.00,99.00),(2,'testName2','testDesc2',9.00,9.00),(3,'newProductName','new desc',98.00,100.00);
+INSERT INTO `products` VALUES (2,'Yeesus','Kanye West',149.00,1000.00),(3,'Megalithic Melody','AWOLNATION',145.00,199.00),(4,'VIVA LA VIDA','AWESOME',200.00,0.00),(7,'Mylo Xyloto','Lovers in Japan',149.00,0.00),(8,'Mylo Xyloto',NULL,149.00,0.00),(10,'Mylo Xyloto','Epic album!!',149.00,3000.00),(11,'Parachutes','So good',149.00,3000.00),(33,'Mylo Xyloto','Coldplay, 2012',149.00,1000.00),(34,'Streets of Gold','3oh!3',149.00,1000.00),(37,'Yeesus','Kanye West',149.00,1000.00),(38,'Hybrid','Linkin',200.00,201.00),(39,'Hybrid Theory','Linkin Park',149.00,200.00),(40,'odalys','best mom',100.00,200.00);
 /*!40000 ALTER TABLE `products` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -107,14 +107,14 @@ DROP TABLE IF EXISTS `shopping_cart`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `shopping_cart` (
-  `user_email` varchar(50) NOT NULL,
+  `user_id` int(10) unsigned NOT NULL,
   `product_id` mediumint(8) unsigned NOT NULL,
   `quantity` int(4) unsigned NOT NULL DEFAULT '1',
-  PRIMARY KEY (`user_email`,`product_id`),
+  PRIMARY KEY (`user_id`,`product_id`),
   KEY `product_FK_idx` (`product_id`),
   KEY `product_shopping_FK_idx` (`product_id`),
   CONSTRAINT `product_shopping_FK` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION,
-  CONSTRAINT `user_shopping_FK` FOREIGN KEY (`user_email`) REFERENCES `users` (`email`) ON DELETE CASCADE ON UPDATE NO ACTION
+  CONSTRAINT `user_shopping_FK` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -146,7 +146,7 @@ CREATE TABLE `staff` (
   `email` varchar(255) DEFAULT NULL,
   `salary` mediumint(9) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=185 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -167,6 +167,7 @@ DROP TABLE IF EXISTS `users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `email` varchar(50) NOT NULL,
   `password` varchar(20) NOT NULL,
   `firstname` varchar(20) NOT NULL,
@@ -177,8 +178,9 @@ CREATE TABLE `users` (
   `address2` varchar(50) DEFAULT NULL,
   `town` varchar(50) NOT NULL,
   `postcode` varchar(50) NOT NULL,
-  PRIMARY KEY (`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email_UNIQUE` (`email`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -187,7 +189,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('apple@apple.com','Password001','Bob','Johnson','1940-03-04','0704438573','Roadrd. 2','C/O bobson','New York','19587');
+INSERT INTO `users` VALUES (1,'isabella','rodz','isabella','rodriguez','1992-11-30','0700093719','kavallerigatan','dde','upplands','19475'),(2,'ook@','ok','hello','ok','1992-01-02','05905425235','okorke','ofdk','stockholm','14343');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -200,4 +202,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-02-10 12:40:30
+-- Dump completed on 2014-02-24 13:30:41

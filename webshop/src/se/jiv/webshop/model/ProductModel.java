@@ -3,7 +3,7 @@ package se.jiv.webshop.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductModel {
+public final class ProductModel {
 	public static final int DEFAULT_PRODUCT_ID = -1;
 
 	private final int id;
@@ -14,12 +14,11 @@ public class ProductModel {
 	private final List<Integer> categories;
 	private final int productType;
 
-	public static abstract class Builder<T extends Builder<T>> {
+	public static class Builder {
 		// Required parameters
 		private final String name;
 		private final int productType;
 
-		protected abstract T self();
 
 		// optional parameters
 		private int id;
@@ -39,31 +38,31 @@ public class ProductModel {
 			categories = new ArrayList<Integer>();
 		}
 
-		public T id(int id) {
+		public Builder id(int id) {
 			this.id = id;
-			return self();
+			return this;
 		}
 
-		public T description(String description) {
+		public Builder description(String description) {
 			this.description = description;
-			return self();
+			return this;
 		}
 
-		public T cost(double cost) {
+		public Builder cost(double cost) {
 			this.cost = cost;
-			return self();
+			return this;
 		}
 
-		public T rrp(double rrp) {
+		public Builder rrp(double rrp) {
 			this.rrp = rrp;
-			return self();
+			return this;
 		}
 
-		public T categories(List<Integer> categories) {
+		public Builder categories(List<Integer> categories) {
 			if (categories != null) {
 				this.categories.addAll(categories);
 			}
-			return self();
+			return this;
 		}
 
 		public ProductModel build() {
@@ -72,18 +71,7 @@ public class ProductModel {
 
 	}
 
-	private static class Builder2 extends Builder<Builder2> {
-		public Builder2(String name, int productType) {
-			super(name, productType);
-		}
-
-		@Override
-		protected Builder2 self() {
-			return this;
-		}
-	}
-
-	protected ProductModel(Builder<?> builder) {
+	private ProductModel(Builder builder) {
 		this.id = builder.id;
 		this.name = builder.name;
 		this.description = builder.description;
@@ -101,10 +89,6 @@ public class ProductModel {
 		this.rrp = other.rrp;
 		this.categories = other.categories;
 		this.productType = other.productType;
-	}
-
-	public static Builder<?> builder(String name, int productType) {
-		return new Builder2(name, productType);
 	}
 
 	public int getId() {

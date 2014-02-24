@@ -1,575 +1,186 @@
-2014-02-19 09:11:10 CategoryDAO [ERROR] CategoryDAO.DELETE_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:10 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 09:11:10 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:10 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:10 CategoryDAO [ERROR] CategoryDAO.UPDATE_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 09:11:10 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 CategoryDAO [ERROR] CategoryDAO.GET_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 CategoryDAO [ERROR] CategoryDAO.GET_ALL_CATEGORIES: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 CategoryDAO [ERROR] CategoryDAO.SEARCH_CATEGORY_BY_NAME: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 ProductDAO [ERROR] ProductDAO.GET_PRODUCT_BY_ID: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 ProductDAO [ERROR] ProductDAO.GET_PRODUCT_BY_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 ProductDAO [ERROR] ProductDAO.GET_PRODUCT_BY_ID: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 ProductDAO [ERROR] ProductDAO.GET_PRODUCT_BY_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:11 ProductDAO [ERROR] ProductDAO.GET_PRODUCT_BY_COST: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ProductDAO [ERROR] ProductDAO.GET_PRODUCT_BY_NAME: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ProductDAO [ERROR] ProductDAO.GET_ALL_PRODUCTS: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ProductDAO [ERROR] ProductDAO.CREATE_PRODUCT: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ProductDAO [ERROR] ProductDAO.GET_CATEGORIES_OF_PRODUCT: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ProductDAO [ERROR] ProductDAO.UPDATE_PRODUCT: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ProductDAO [ERROR] ProductDAO.GET_CATEGORIES_OF_PRODUCT: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ProductDAO [ERROR] com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ProductDAO [ERROR] ProductDAO.GET_PRODUCT_BY_COST: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ProductDAO [ERROR] ProductDAO.GET_PRODUCT_BY_NAME: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:12 ShoppingCartDAO [ERROR] ShoppingCartDAO.RESET_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:12 ShoppingCartDAO [ERROR] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:12 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:14 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 09:11:14 ShoppingCartDAO [ERROR] ShoppingCartDAO.RESET_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:15 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:15 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:15 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:15 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 09:11:15 ShoppingCartDAO [ERROR] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:15 ShoppingCartDAO [ERROR] ShoppingCartDAO.GET_SHOPPING_SHOPPING_CART_CONTENTS: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:15 ShoppingCartDAO [ERROR] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:15 UserDAO [ERROR] UserDAO.UPDATE_USER: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:15 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:15 UserDAO [ERROR] UserDAO.GET_USER: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:16 UserDAO [ERROR] UserDAO.VALIDATE_LOGIN: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:16 UserDAO [ERROR] UserDAO.DELETE_USER: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:16 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:16 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:16 UserDAO [ERROR] UserDAO.GET_ALL_USERS: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:16 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2014-02-19 09:11:38 CategoryDAO [TRACE] CategoryDAO.GET_CATEGORY - Category searched by id:  Id: 12, Name: testName, Straff_responsible: 101 
-2014-02-19 09:11:38 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  -1000 
-2014-02-19 09:11:38 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 09:11:38 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
-2014-02-19 09:11:38 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: -1, Name: toAddCategory, Straff_responsible: 105 
-2014-02-19 09:11:38 CategoryDAO [ERROR] CategoryDAO.UPDATE_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 09:11:38 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 20, Name: toAddCategory, Straff_responsible: 107 
-2014-02-19 09:11:38 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory' for key 'name_UNIQUE'
-2014-02-19 09:11:38 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory2' for key 'name_UNIQUE'
-2014-02-19 09:11:38 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
-2014-02-19 09:11:38 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
-2014-02-19 09:11:38 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
-2014-02-19 09:11:38 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 31, Name: toAddCategory, Straff_responsible: 113 
-2014-02-19 09:11:39 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: 34, Name: categoryUpdated, Straff_responsible: 115 
-2014-02-19 09:11:39 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
-2014-02-19 09:11:39 CategoryDAO [TRACE] CategoryDAO.GET_ALL_CATEGORIES - All categories:  [Id: 1, Name: Books, Straff_responsible: 27, Id: 2, Name: Children, Straff_responsible: 63, Id: 3, Name: Clothes, Straff_responsible: 63, Id: 4, Name: Computing, Straff_responsible: 58, Id: 5, Name: Electronics, Straff_responsible: 58, Id: 6, Name: Films, Straff_responsible: 27, Id: 7, Name: Gardening, Straff_responsible: 63, Id: 8, Name: Mens, Straff_responsible: 63, Id: 9, Name: Sports & outdoors, Straff_responsible: 71, Id: 10, Name: Toys, Straff_responsible: 62, Id: 11, Name: Womens, Straff_responsible: 63, Id: 37, Name: testName, Straff_responsible: 117] 
-2014-02-19 09:11:39 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
-2014-02-19 09:11:39 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  42 
-2014-02-19 09:11:39 CategoryDAO [TRACE] CategoryDAO.SEARCH_CATEGORY_BY_NAME - Category searched by name:  Id: 43, Name: testName, Straff_responsible: 121 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_ID - Found product with id:  42 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 46, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [1]] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 48, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [Id: 50, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 51, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_ALL_PRODUCTS - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 3, Name: Megalithic Melody, Description: AWOLNATION, Cost: 145.0, RRP: 199.0, ProductType: 1, Categories: [], Id: 4, Name: VIVA LA VIDA, Description: AWESOME, Cost: 200.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 38, Name: Hybrid, Description: Linkin, Cost: 200.0, RRP: 201.0, ProductType: 1, Categories: [], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 52, Name: Prod1, Description: desc1, Cost: 1.0, RRP: 1.0, ProductType: 1, Categories: [], Id: 53, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 54, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.CREATE_PRODUCT - Product created: Id: 56, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.UPDATE_PRODUCT - Updated product: Id: 60, Name: Night Visionsadfa, Description: Imagine Dragonsadfa, Cost: 1439.0, RRP: 4030.0, ProductType: 1, Categories: [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.DELETE_PRODUCT - Product with product id= 63  deleted 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [] 
-2014-02-19 09:11:39 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [] 
-2014-02-19 09:11:39 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  66  wtih a quantity of:  8 
-2014-02-19 09:11:39 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:39 ShoppingCartDAO [ERROR] ShoppingCartDAO.RESET_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:39 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  -50  from user:  bbq@test.se 
-2014-02-19 09:11:39 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  20  product of id:  74  to user:  bbq@test.se 
-2014-02-19 09:11:39 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  10  product of id:  76  to user:  bbq@test.se 
-2014-02-19 09:11:39 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:39 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 09:11:39 ShoppingCartDAO [TRACE] ShoppingCartDAO.RESET_SHOPPING_CART - Resetted shopping cart of user:  bbq@test.se 
-2014-02-19 09:11:40 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`shopping_cart`, CONSTRAINT `user_shopping_FK` FOREIGN KEY (`user_email`) REFERENCES `users` (`email`) ON DELETE CASCADE ON UPDATE NO ACTION)
-2014-02-19 09:11:40 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'product_id' at row 1
-2014-02-19 09:11:40 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  88  wtih a quantity of:  0 
-2014-02-19 09:11:40 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 09:11:40 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  92  from user:  bbq@test.se 
-2014-02-19 09:11:40 ShoppingCartDAO [TRACE] ShoppingCartDAO.GET_SHOPPING_SHOPPING_CART_CONTENTS - Get shopping cart from user:  bbq@test.se 
-2014-02-19 09:11:40 ShoppingCartDAO [ERROR] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:40 UserDAO [TRACE] UserDAO.UPDATE_USER - User updated:  User: bbq1@test.se Firstname: To1m Lastname: White5more Dob: 1949-09-09 Telephone: 0807384756 Address: Telegra1fvagen 32 C/O Olsen Stoc5kholm postc1ode  
-2014-02-19 09:11:40 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Column 'password' cannot be null
-2014-02-19 09:11:40 UserDAO [TRACE] UserDAO.GET_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 09:11:40 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User validated:  bbq1@test.se 
-2014-02-19 09:11:40 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User not validated:  bbq1@test.se 
-2014-02-19 09:11:40 UserDAO [TRACE] UserDAO.DELETE_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 09:11:40 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:11:40 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Duplicate entry 'bbq1@test.se' for key 'PRIMARY'
-2014-02-19 09:11:40 UserDAO [TRACE] UserDAO.GET_ALL_USERS - All users get from database:  [User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: bbq@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: isabella Firstname: isabella Lastname: rodriguez Dob: 1992-11-30 Telephone: 0700093719 Address: kavallerigatan dde upplands 19475 ] 
-2014-02-19 09:11:40 UserDAO [TRACE] UserDAO.ADD_USER - User added:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 09:13:20 CategoryDAO [TRACE] CategoryDAO.GET_CATEGORY - Category searched by id:  Id: 44, Name: testName, Straff_responsible: 122 
-2014-02-19 09:13:20 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  -1000 
-2014-02-19 09:13:20 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 09:13:21 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
-2014-02-19 09:13:21 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: -1, Name: toAddCategory, Straff_responsible: 126 
-2014-02-19 09:13:21 CategoryDAO [ERROR] CategoryDAO.UPDATE_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 09:13:21 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 52, Name: toAddCategory, Straff_responsible: 128 
-2014-02-19 09:13:21 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory' for key 'name_UNIQUE'
-2014-02-19 09:13:21 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory2' for key 'name_UNIQUE'
-2014-02-19 09:13:21 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
-2014-02-19 09:13:21 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
-2014-02-19 09:13:21 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
-2014-02-19 09:13:21 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 63, Name: toAddCategory, Straff_responsible: 134 
-2014-02-19 09:13:21 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: 66, Name: categoryUpdated, Straff_responsible: 136 
-2014-02-19 09:13:21 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
-2014-02-19 09:13:21 CategoryDAO [TRACE] CategoryDAO.GET_ALL_CATEGORIES - All categories:  [Id: 1, Name: Books, Straff_responsible: 27, Id: 2, Name: Children, Straff_responsible: 63, Id: 3, Name: Clothes, Straff_responsible: 63, Id: 4, Name: Computing, Straff_responsible: 58, Id: 5, Name: Electronics, Straff_responsible: 58, Id: 6, Name: Films, Straff_responsible: 27, Id: 7, Name: Gardening, Straff_responsible: 63, Id: 8, Name: Mens, Straff_responsible: 63, Id: 9, Name: Sports & outdoors, Straff_responsible: 71, Id: 10, Name: Toys, Straff_responsible: 62, Id: 11, Name: Womens, Straff_responsible: 63, Id: 69, Name: testName, Straff_responsible: 138] 
-2014-02-19 09:13:21 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
-2014-02-19 09:13:21 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  74 
-2014-02-19 09:13:21 CategoryDAO [TRACE] CategoryDAO.SEARCH_CATEGORY_BY_NAME - Category searched by name:  Id: 75, Name: testName, Straff_responsible: 142 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_ID - Found product with id:  99 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 103, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [1]] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 105, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [Id: 107, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 108, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_ALL_PRODUCTS - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 3, Name: Megalithic Melody, Description: AWOLNATION, Cost: 145.0, RRP: 199.0, ProductType: 1, Categories: [], Id: 4, Name: VIVA LA VIDA, Description: AWESOME, Cost: 200.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 38, Name: Hybrid, Description: Linkin, Cost: 200.0, RRP: 201.0, ProductType: 1, Categories: [], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 109, Name: Prod1, Description: desc1, Cost: 1.0, RRP: 1.0, ProductType: 1, Categories: [], Id: 110, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 111, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.CREATE_PRODUCT - Product created: Id: 113, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:13:21 ProductDAO [TRACE] ProductDAO.UPDATE_PRODUCT - Updated product: Id: 117, Name: Night Visionsadfa, Description: Imagine Dragonsadfa, Cost: 1439.0, RRP: 4030.0, ProductType: 1, Categories: [] 
-2014-02-19 09:13:22 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:13:22 ProductDAO [TRACE] ProductDAO.DELETE_PRODUCT - Product with product id= 120  deleted 
-2014-02-19 09:13:22 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [] 
-2014-02-19 09:13:22 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [] 
-2014-02-19 09:13:22 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  123  wtih a quantity of:  8 
-2014-02-19 09:13:22 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:13:22 ShoppingCartDAO [ERROR] ShoppingCartDAO.RESET_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:13:22 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  -50  from user:  bbq@test.se 
-2014-02-19 09:13:22 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  20  product of id:  131  to user:  bbq@test.se 
-2014-02-19 09:13:22 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  10  product of id:  133  to user:  bbq@test.se 
-2014-02-19 09:13:22 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:13:22 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 09:13:22 ShoppingCartDAO [TRACE] ShoppingCartDAO.RESET_SHOPPING_CART - Resetted shopping cart of user:  bbq@test.se 
-2014-02-19 09:13:22 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`shopping_cart`, CONSTRAINT `user_shopping_FK` FOREIGN KEY (`user_email`) REFERENCES `users` (`email`) ON DELETE CASCADE ON UPDATE NO ACTION)
-2014-02-19 09:13:22 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'product_id' at row 1
-2014-02-19 09:13:22 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  145  wtih a quantity of:  0 
-2014-02-19 09:13:22 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 09:13:22 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  149  from user:  bbq@test.se 
-2014-02-19 09:13:22 ShoppingCartDAO [TRACE] ShoppingCartDAO.GET_SHOPPING_SHOPPING_CART_CONTENTS - Get shopping cart from user:  bbq@test.se 
-2014-02-19 09:13:22 ShoppingCartDAO [ERROR] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:13:22 UserDAO [TRACE] UserDAO.UPDATE_USER - User updated:  User: bbq1@test.se Firstname: To1m Lastname: White5more Dob: 1949-09-09 Telephone: 0807384756 Address: Telegra1fvagen 32 C/O Olsen Stoc5kholm postc1ode  
-2014-02-19 09:13:22 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Column 'password' cannot be null
-2014-02-19 09:13:22 UserDAO [TRACE] UserDAO.GET_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 09:13:22 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User validated:  bbq1@test.se 
-2014-02-19 09:13:22 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User not validated:  bbq1@test.se 
-2014-02-19 09:13:22 UserDAO [TRACE] UserDAO.DELETE_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 09:13:22 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:13:22 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Duplicate entry 'bbq1@test.se' for key 'PRIMARY'
-2014-02-19 09:13:22 UserDAO [TRACE] UserDAO.GET_ALL_USERS - All users get from database:  [User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: bbq@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: isabella Firstname: isabella Lastname: rodriguez Dob: 1992-11-30 Telephone: 0700093719 Address: kavallerigatan dde upplands 19475 ] 
-2014-02-19 09:13:23 UserDAO [TRACE] UserDAO.ADD_USER - User added:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 09:21:12 CategoryDAO [TRACE] CategoryDAO.GET_ALL_CATEGORIES - All categories:  [Id: 1, Name: Books, Straff_responsible: 27, Id: 2, Name: Children, Straff_responsible: 63, Id: 3, Name: Clothes, Straff_responsible: 63, Id: 4, Name: Computing, Straff_responsible: 58, Id: 5, Name: Electronics, Straff_responsible: 58, Id: 6, Name: Films, Straff_responsible: 27, Id: 7, Name: Gardening, Straff_responsible: 63, Id: 8, Name: Mens, Straff_responsible: 63, Id: 9, Name: Sports & outdoors, Straff_responsible: 71, Id: 10, Name: Toys, Straff_responsible: 62, Id: 11, Name: Womens, Straff_responsible: 63] 
-2014-02-19 09:21:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:21:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:21:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:21:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:21:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:21:14 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4]] 
-2014-02-19 09:21:29 CategoryDAO [TRACE] CategoryDAO.GET_CATEGORY - Category searched by id:  Id: 76, Name: testName, Straff_responsible: 143 
-2014-02-19 09:21:29 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  -1000 
-2014-02-19 09:21:29 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 09:21:29 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
-2014-02-19 09:21:29 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: -1, Name: toAddCategory, Straff_responsible: 147 
-2014-02-19 09:21:29 CategoryDAO [ERROR] CategoryDAO.UPDATE_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 09:21:29 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 84, Name: toAddCategory, Straff_responsible: 149 
-2014-02-19 09:21:29 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory' for key 'name_UNIQUE'
-2014-02-19 09:21:29 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory2' for key 'name_UNIQUE'
-2014-02-19 09:21:29 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
-2014-02-19 09:21:29 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
-2014-02-19 09:21:29 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
-2014-02-19 09:21:29 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 95, Name: toAddCategory, Straff_responsible: 155 
-2014-02-19 09:21:29 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: 98, Name: categoryUpdated, Straff_responsible: 157 
-2014-02-19 09:21:29 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
-2014-02-19 09:21:29 CategoryDAO [TRACE] CategoryDAO.GET_ALL_CATEGORIES - All categories:  [Id: 1, Name: Books, Straff_responsible: 27, Id: 2, Name: Children, Straff_responsible: 63, Id: 3, Name: Clothes, Straff_responsible: 63, Id: 4, Name: Computing, Straff_responsible: 58, Id: 5, Name: Electronics, Straff_responsible: 58, Id: 6, Name: Films, Straff_responsible: 27, Id: 7, Name: Gardening, Straff_responsible: 63, Id: 8, Name: Mens, Straff_responsible: 63, Id: 9, Name: Sports & outdoors, Straff_responsible: 71, Id: 10, Name: Toys, Straff_responsible: 62, Id: 11, Name: Womens, Straff_responsible: 63, Id: 101, Name: testName, Straff_responsible: 159] 
-2014-02-19 09:21:30 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
-2014-02-19 09:21:30 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  106 
-2014-02-19 09:21:30 CategoryDAO [TRACE] CategoryDAO.SEARCH_CATEGORY_BY_NAME - Category searched by name:  Id: 107, Name: testName, Straff_responsible: 163 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_ID - Found product with id:  156 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 160, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [1]] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 162, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [Id: 164, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 165, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_ALL_PRODUCTS - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 3, Name: Megalithic Melody, Description: AWOLNATION, Cost: 145.0, RRP: 199.0, ProductType: 1, Categories: [], Id: 4, Name: VIVA LA VIDA, Description: AWESOME, Cost: 200.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 38, Name: Hybrid, Description: Linkin, Cost: 200.0, RRP: 201.0, ProductType: 1, Categories: [], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 166, Name: Prod1, Description: desc1, Cost: 1.0, RRP: 1.0, ProductType: 1, Categories: [], Id: 167, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 168, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.CREATE_PRODUCT - Product created: Id: 170, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.UPDATE_PRODUCT - Updated product: Id: 174, Name: Night Visionsadfa, Description: Imagine Dragonsadfa, Cost: 1439.0, RRP: 4030.0, ProductType: 1, Categories: [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.DELETE_PRODUCT - Product with product id= 177  deleted 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [] 
-2014-02-19 09:21:30 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [] 
-2014-02-19 09:21:30 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  180  wtih a quantity of:  8 
-2014-02-19 09:21:30 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:21:30 ShoppingCartDAO [ERROR] ShoppingCartDAO.RESET_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:21:30 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  -50  from user:  bbq@test.se 
-2014-02-19 09:21:30 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  20  product of id:  188  to user:  bbq@test.se 
-2014-02-19 09:21:30 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  10  product of id:  190  to user:  bbq@test.se 
-2014-02-19 09:21:30 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:21:30 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 09:21:30 ShoppingCartDAO [TRACE] ShoppingCartDAO.RESET_SHOPPING_CART - Resetted shopping cart of user:  bbq@test.se 
-2014-02-19 09:21:30 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`shopping_cart`, CONSTRAINT `user_shopping_FK` FOREIGN KEY (`user_email`) REFERENCES `users` (`email`) ON DELETE CASCADE ON UPDATE NO ACTION)
-2014-02-19 09:21:30 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'product_id' at row 1
-2014-02-19 09:21:31 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  202  wtih a quantity of:  0 
-2014-02-19 09:21:31 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 09:21:31 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  206  from user:  bbq@test.se 
-2014-02-19 09:21:31 ShoppingCartDAO [TRACE] ShoppingCartDAO.GET_SHOPPING_SHOPPING_CART_CONTENTS - Get shopping cart from user:  bbq@test.se 
-2014-02-19 09:21:31 ShoppingCartDAO [ERROR] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:21:31 UserDAO [TRACE] UserDAO.UPDATE_USER - User updated:  User: bbq1@test.se Firstname: To1m Lastname: White5more Dob: 1949-09-09 Telephone: 0807384756 Address: Telegra1fvagen 32 C/O Olsen Stoc5kholm postc1ode  
-2014-02-19 09:21:31 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Column 'password' cannot be null
-2014-02-19 09:21:31 UserDAO [TRACE] UserDAO.GET_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 09:21:31 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User validated:  bbq1@test.se 
-2014-02-19 09:21:31 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User not validated:  bbq1@test.se 
-2014-02-19 09:21:31 UserDAO [TRACE] UserDAO.DELETE_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 09:21:31 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 09:21:31 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Duplicate entry 'bbq1@test.se' for key 'PRIMARY'
-2014-02-19 09:21:31 UserDAO [TRACE] UserDAO.GET_ALL_USERS - All users get from database:  [User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: bbq@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: isabella Firstname: isabella Lastname: rodriguez Dob: 1992-11-30 Telephone: 0700093719 Address: kavallerigatan dde upplands 19475 ] 
-2014-02-19 09:21:31 UserDAO [TRACE] UserDAO.ADD_USER - User added:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 09:23:13 CategoryDAO [TRACE] CategoryDAO.GET_ALL_CATEGORIES - All categories:  [Id: 1, Name: Books, Straff_responsible: 27, Id: 2, Name: Children, Straff_responsible: 63, Id: 3, Name: Clothes, Straff_responsible: 63, Id: 4, Name: Computing, Straff_responsible: 58, Id: 5, Name: Electronics, Straff_responsible: 58, Id: 6, Name: Films, Straff_responsible: 27, Id: 7, Name: Gardening, Straff_responsible: 63, Id: 8, Name: Mens, Straff_responsible: 63, Id: 9, Name: Sports & outdoors, Straff_responsible: 71, Id: 10, Name: Toys, Straff_responsible: 62, Id: 11, Name: Womens, Straff_responsible: 63] 
-2014-02-19 09:23:16 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:23:16 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:23:16 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:23:16 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:23:16 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:23:16 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4]] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_ID - Found product with id:  213 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 217, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [1]] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:05 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 219, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [Id: 221, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 222, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_ALL_PRODUCTS - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 3, Name: Megalithic Melody, Description: AWOLNATION, Cost: 145.0, RRP: 199.0, ProductType: 1, Categories: [], Id: 4, Name: VIVA LA VIDA, Description: AWESOME, Cost: 200.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 38, Name: Hybrid, Description: Linkin, Cost: 200.0, RRP: 201.0, ProductType: 1, Categories: [], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 223, Name: Prod1, Description: desc1, Cost: 1.0, RRP: 1.0, ProductType: 1, Categories: [], Id: 224, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 225, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.CREATE_PRODUCT - Product created: Id: 227, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.UPDATE_PRODUCT - Updated product: Id: 231, Name: Night Visionsadfa, Description: Imagine Dragonsadfa, Cost: 1439.0, RRP: 4030.0, ProductType: 1, Categories: [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.DELETE_PRODUCT - Product with product id= 234  deleted 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [] 
-2014-02-19 09:57:06 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [] 
-2014-02-19 11:12:07 UserDAO [TRACE] UserDAO.ADD_USER - User added:  User: ook@ Firstname: hello Lastname: ok Dob: 1992-01-02 Telephone: 05905425235 Address: okorke ofdk okdkfd 14343  
-2014-02-19 11:12:28 UserDAO [TRACE] UserDAO.GET_USER - User deleted:  User: ook@ Firstname: hello Lastname: ok Dob: 1992-01-02 Telephone: 05905425235 Address: okorke ofdk okdkfd 14343  
-2014-02-19 11:12:36 UserDAO [TRACE] UserDAO.UPDATE_USER - User updated:  User: ook@ Firstname: hello Lastname: ok Dob: 1992-01-02 Telephone: 05905425235 Address: okorke ofdk stockholm 14343  
-2014-02-19 11:12:55 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User validated:  ook@ 
-2014-02-19 11:12:55 UserDAO [TRACE] UserDAO.GET_USER - User deleted:  User: ook@ Firstname: hello Lastname: ok Dob: 1992-01-02 Telephone: 05905425235 Address: okorke ofdk stockholm 14343  
-2014-02-19 11:13:06 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User not validated:  ook@ 
-2014-02-19 11:15:07 CategoryDAO [TRACE] CategoryDAO.GET_CATEGORY - Category searched by id:  Id: 108, Name: testName, Straff_responsible: 164 
-2014-02-19 11:15:07 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  -1000 
-2014-02-19 11:15:07 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 11:15:07 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
-2014-02-19 11:15:07 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: -1, Name: toAddCategory, Straff_responsible: 168 
-2014-02-19 11:15:07 CategoryDAO [ERROR] CategoryDAO.UPDATE_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
-2014-02-19 11:15:07 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 116, Name: toAddCategory, Straff_responsible: 170 
-2014-02-19 11:15:07 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory' for key 'name_UNIQUE'
-2014-02-19 11:15:07 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory2' for key 'name_UNIQUE'
-2014-02-19 11:15:07 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
-2014-02-19 11:15:07 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
-2014-02-19 11:15:07 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
-2014-02-19 11:15:07 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 127, Name: toAddCategory, Straff_responsible: 176 
-2014-02-19 11:15:07 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: 130, Name: categoryUpdated, Straff_responsible: 178 
-2014-02-19 11:15:07 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
-2014-02-19 11:15:08 CategoryDAO [TRACE] CategoryDAO.GET_ALL_CATEGORIES - All categories:  [Id: 1, Name: Books, Straff_responsible: 27, Id: 2, Name: Children, Straff_responsible: 63, Id: 3, Name: Clothes, Straff_responsible: 63, Id: 4, Name: Computing, Straff_responsible: 58, Id: 5, Name: Electronics, Straff_responsible: 58, Id: 6, Name: Films, Straff_responsible: 27, Id: 7, Name: Gardening, Straff_responsible: 63, Id: 8, Name: Mens, Straff_responsible: 63, Id: 9, Name: Sports & outdoors, Straff_responsible: 71, Id: 10, Name: Toys, Straff_responsible: 62, Id: 11, Name: Womens, Straff_responsible: 63, Id: 133, Name: testName, Straff_responsible: 180] 
-2014-02-19 11:15:08 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
-2014-02-19 11:15:08 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  138 
-2014-02-19 11:15:08 CategoryDAO [TRACE] CategoryDAO.SEARCH_CATEGORY_BY_NAME - Category searched by name:  Id: 139, Name: testName, Straff_responsible: 184 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_ID - Found product with id:  238 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 242, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [1]] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 244, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [Id: 246, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 247, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_ALL_PRODUCTS - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 3, Name: Megalithic Melody, Description: AWOLNATION, Cost: 145.0, RRP: 199.0, ProductType: 1, Categories: [], Id: 4, Name: VIVA LA VIDA, Description: AWESOME, Cost: 200.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 38, Name: Hybrid, Description: Linkin, Cost: 200.0, RRP: 201.0, ProductType: 1, Categories: [], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 248, Name: Prod1, Description: desc1, Cost: 1.0, RRP: 1.0, ProductType: 1, Categories: [], Id: 249, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 250, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.CREATE_PRODUCT - Product created: Id: 252, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.UPDATE_PRODUCT - Updated product: Id: 256, Name: Night Visionsadfa, Description: Imagine Dragonsadfa, Cost: 1439.0, RRP: 4030.0, ProductType: 1, Categories: [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.DELETE_PRODUCT - Product with product id= 259  deleted 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [] 
-2014-02-19 11:15:08 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [] 
-2014-02-19 11:15:08 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  262  wtih a quantity of:  8 
-2014-02-19 11:15:08 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 11:15:08 ShoppingCartDAO [ERROR] ShoppingCartDAO.RESET_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 11:15:08 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  -50  from user:  bbq@test.se 
-2014-02-19 11:15:08 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  20  product of id:  270  to user:  bbq@test.se 
-2014-02-19 11:15:08 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  10  product of id:  272  to user:  bbq@test.se 
-2014-02-19 11:15:08 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 11:15:08 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 11:15:08 ShoppingCartDAO [TRACE] ShoppingCartDAO.RESET_SHOPPING_CART - Resetted shopping cart of user:  bbq@test.se 
-2014-02-19 11:15:08 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`shopping_cart`, CONSTRAINT `user_shopping_FK` FOREIGN KEY (`user_email`) REFERENCES `users` (`email`) ON DELETE CASCADE ON UPDATE NO ACTION)
-2014-02-19 11:15:09 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'product_id' at row 1
-2014-02-19 11:15:09 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  284  wtih a quantity of:  0 
-2014-02-19 11:15:09 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
-2014-02-19 11:15:09 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  288  from user:  bbq@test.se 
-2014-02-19 11:15:09 ShoppingCartDAO [TRACE] ShoppingCartDAO.GET_SHOPPING_SHOPPING_CART_CONTENTS - Get shopping cart from user:  bbq@test.se 
-2014-02-19 11:15:09 ShoppingCartDAO [ERROR] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 11:15:09 UserDAO [TRACE] UserDAO.UPDATE_USER - User updated:  User: bbq1@test.se Firstname: To1m Lastname: White5more Dob: 1949-09-09 Telephone: 0807384756 Address: Telegra1fvagen 32 C/O Olsen Stoc5kholm postc1ode  
-2014-02-19 11:15:09 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Column 'password' cannot be null
-2014-02-19 11:15:09 UserDAO [TRACE] UserDAO.GET_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 11:15:09 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User validated:  bbq1@test.se 
-2014-02-19 11:15:09 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User not validated:  bbq1@test.se 
-2014-02-19 11:15:09 UserDAO [TRACE] UserDAO.DELETE_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
-2014-02-19 11:15:09 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: user can not be null
-2014-02-19 11:15:09 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Duplicate entry 'bbq1@test.se' for key 'PRIMARY'
-2014-02-19 11:15:09 UserDAO [TRACE] UserDAO.GET_ALL_USERS - All users get from database:  [User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: bbq@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: isabella Firstname: isabella Lastname: rodriguez Dob: 1992-11-30 Telephone: 0700093719 Address: kavallerigatan dde upplands 19475 , User: ook@ Firstname: hello Lastname: ok Dob: 1992-01-02 Telephone: 05905425235 Address: okorke ofdk stockholm 14343 ] 
-2014-02-19 11:15:09 UserDAO [TRACE] UserDAO.ADD_USER - User added:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
+2014-02-24 12:36:13 CategoryDAO [TRACE] CategoryDAO.GET_CATEGORY - Category searched by id:  Id: 12, Name: testName, Straff_responsible: 101 
+2014-02-24 12:36:13 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  -1000 
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
+2014-02-24 12:36:13 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: -1, Name: toAddCategory, Straff_responsible: 105 
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.UPDATE_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
+2014-02-24 12:36:13 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 20, Name: toAddCategory, Straff_responsible: 107 
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory' for key 'name_UNIQUE'
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory2' for key 'name_UNIQUE'
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
+2014-02-24 12:36:13 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 31, Name: toAddCategory, Straff_responsible: 113 
+2014-02-24 12:36:13 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: 34, Name: categoryUpdated, Straff_responsible: 115 
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
+2014-02-24 12:36:13 CategoryDAO [TRACE] CategoryDAO.GET_ALL_CATEGORIES - All categories:  [Id: 1, Name: Books, Straff_responsible: 27, Id: 2, Name: Children, Straff_responsible: 63, Id: 3, Name: Clothes, Straff_responsible: 63, Id: 4, Name: Computing, Straff_responsible: 58, Id: 5, Name: Electronics, Straff_responsible: 58, Id: 6, Name: Films, Straff_responsible: 27, Id: 7, Name: Gardening, Straff_responsible: 63, Id: 8, Name: Mens, Straff_responsible: 63, Id: 9, Name: Sports & outdoors, Straff_responsible: 71, Id: 10, Name: Toys, Straff_responsible: 62, Id: 11, Name: Womens, Straff_responsible: 63, Id: 37, Name: testName, Straff_responsible: 117] 
+2014-02-24 12:36:13 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
+2014-02-24 12:36:14 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  42 
+2014-02-24 12:36:14 CategoryDAO [TRACE] CategoryDAO.SEARCH_CATEGORY_BY_NAME - Category searched by name:  Id: 43, Name: testName, Straff_responsible: 121 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_ID - Found product with id:  42 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 46, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [1]] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 48, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [Id: 50, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 51, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_ALL_PRODUCTS - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 3, Name: Megalithic Melody, Description: AWOLNATION, Cost: 145.0, RRP: 199.0, ProductType: 1, Categories: [], Id: 4, Name: VIVA LA VIDA, Description: AWESOME, Cost: 200.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 38, Name: Hybrid, Description: Linkin, Cost: 200.0, RRP: 201.0, ProductType: 1, Categories: [], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 52, Name: Prod1, Description: desc1, Cost: 1.0, RRP: 1.0, ProductType: 1, Categories: [], Id: 53, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 54, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.CREATE_PRODUCT - Product created: Id: 56, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.UPDATE_PRODUCT - Updated product: Id: 60, Name: Night Visionsadfa, Description: Imagine Dragonsadfa, Cost: 1439.0, RRP: 4030.0, ProductType: 1, Categories: [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.DELETE_PRODUCT - Product with product id= 63  deleted 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [] 
+2014-02-24 12:36:14 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [] 
+2014-02-24 12:36:14 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  66  wtih a quantity of:  8 
+2014-02-24 12:36:14 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:36:14 ShoppingCartDAO [ERROR] ShoppingCartDAO.RESET_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:36:14 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  -50  from user:  bbq@test.se 
+2014-02-24 12:36:14 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  20  product of id:  74  to user:  bbq@test.se 
+2014-02-24 12:36:14 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  10  product of id:  76  to user:  bbq@test.se 
+2014-02-24 12:36:14 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:36:14 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
+2014-02-24 12:36:14 ShoppingCartDAO [TRACE] ShoppingCartDAO.RESET_SHOPPING_CART - Resetted shopping cart of user:  bbq@test.se 
+2014-02-24 12:36:14 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`shopping_cart`, CONSTRAINT `user_shopping_FK` FOREIGN KEY (`user_email`) REFERENCES `users` (`email`) ON DELETE CASCADE ON UPDATE NO ACTION)
+2014-02-24 12:36:14 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'product_id' at row 1
+2014-02-24 12:36:15 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  88  wtih a quantity of:  0 
+2014-02-24 12:36:15 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
+2014-02-24 12:36:15 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  92  from user:  bbq@test.se 
+2014-02-24 12:36:15 ShoppingCartDAO [TRACE] ShoppingCartDAO.GET_SHOPPING_SHOPPING_CART_CONTENTS - Get shopping cart from user:  bbq@test.se 
+2014-02-24 12:36:15 ShoppingCartDAO [ERROR] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:36:15 UserDAO [TRACE] UserDAO.UPDATE_USER - User updated:  User: bbq1@test.se Firstname: To1m Lastname: White5more Dob: 1949-09-09 Telephone: 0807384756 Address: Telegra1fvagen 32 C/O Olsen Stoc5kholm postc1ode  
+2014-02-24 12:36:15 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Column 'password' cannot be null
+2014-02-24 12:36:15 UserDAO [TRACE] UserDAO.GET_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
+2014-02-24 12:36:15 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User validated:  bbq1@test.se 
+2014-02-24 12:36:15 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User not validated:  bbq1@test.se 
+2014-02-24 12:36:15 UserDAO [TRACE] UserDAO.DELETE_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
+2014-02-24 12:36:15 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:36:15 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Duplicate entry 'bbq1@test.se' for key 'PRIMARY'
+2014-02-24 12:36:15 UserDAO [TRACE] UserDAO.GET_ALL_USERS - All users get from database:  [User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: bbq@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: isabella Firstname: isabella Lastname: rodriguez Dob: 1992-11-30 Telephone: 0700093719 Address: kavallerigatan dde upplands 19475 , User: ook@ Firstname: hello Lastname: ok Dob: 1992-01-02 Telephone: 05905425235 Address: okorke ofdk stockholm 14343 ] 
+2014-02-24 12:36:15 UserDAO [TRACE] UserDAO.ADD_USER - User added:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
+2014-02-24 12:53:50 CategoryDAO [TRACE] CategoryDAO.GET_CATEGORY - Category searched by id:  Id: 44, Name: testName, Straff_responsible: 122 
+2014-02-24 12:53:50 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  -1000 
+2014-02-24 12:53:50 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
+2014-02-24 12:53:50 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
+2014-02-24 12:53:50 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: -1, Name: toAddCategory, Straff_responsible: 126 
+2014-02-24 12:53:50 CategoryDAO [ERROR] CategoryDAO.UPDATE_CATEGORY: se.jiv.webshop.exception.WebshopAppException: category can not be null
+2014-02-24 12:53:50 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 52, Name: toAddCategory, Straff_responsible: 128 
+2014-02-24 12:53:50 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory' for key 'name_UNIQUE'
+2014-02-24 12:53:51 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'toAddCategory2' for key 'name_UNIQUE'
+2014-02-24 12:53:51 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
+2014-02-24 12:53:51 CategoryDAO [ERROR] CategoryDAO.ADD_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
+2014-02-24 12:53:51 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`categories`, CONSTRAINT `CATEGORY_STAFF_FK` FOREIGN KEY (`staff_responsible`) REFERENCES `staff` (`id`) ON UPDATE NO ACTION)
+2014-02-24 12:53:51 CategoryDAO [TRACE] CategoryDAO.ADD_CATEGORY - Category inserted:  Id: 63, Name: toAddCategory, Straff_responsible: 134 
+2014-02-24 12:53:51 CategoryDAO [TRACE] CategoryDAO.UPDATED_CATEGORY - Category updated:  Id: 66, Name: categoryUpdated, Straff_responsible: 136 
+2014-02-24 12:53:51 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'staff_responsible' at row 1
+2014-02-24 12:53:51 CategoryDAO [TRACE] CategoryDAO.GET_ALL_CATEGORIES - All categories:  [Id: 1, Name: Books, Straff_responsible: 27, Id: 2, Name: Children, Straff_responsible: 63, Id: 3, Name: Clothes, Straff_responsible: 63, Id: 4, Name: Computing, Straff_responsible: 58, Id: 5, Name: Electronics, Straff_responsible: 58, Id: 6, Name: Films, Straff_responsible: 27, Id: 7, Name: Gardening, Straff_responsible: 63, Id: 8, Name: Mens, Straff_responsible: 63, Id: 9, Name: Sports & outdoors, Straff_responsible: 71, Id: 10, Name: Toys, Straff_responsible: 62, Id: 11, Name: Womens, Straff_responsible: 63, Id: 69, Name: testName, Straff_responsible: 138] 
+2014-02-24 12:53:51 CategoryDAO [ERROR] CategoryDAO.UPDATED_CATEGORY: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'name' cannot be null
+2014-02-24 12:53:51 CategoryDAO [TRACE] CategoryDAO.DELETE_CATEGORY - Category deleted with id:  74 
+2014-02-24 12:53:51 CategoryDAO [TRACE] CategoryDAO.SEARCH_CATEGORY_BY_NAME - Category searched by name:  Id: 75, Name: testName, Straff_responsible: 142 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_ID - Found product with id:  99 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_CATEGORY - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 103, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [1]] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 105, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [Id: 107, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 108, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 8, 11] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 6] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [6, 11] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 11] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1, 4] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_ALL_PRODUCTS - Found products:  [Id: 2, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 8, 11], Id: 3, Name: Megalithic Melody, Description: AWOLNATION, Cost: 145.0, RRP: 199.0, ProductType: 1, Categories: [], Id: 4, Name: VIVA LA VIDA, Description: AWESOME, Cost: 200.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 7, Name: Mylo Xyloto, Description: Lovers in Japan, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 8, Name: Mylo Xyloto, Description: null, Cost: 149.0, RRP: 0.0, ProductType: 1, Categories: [], Id: 10, Name: Mylo Xyloto, Description: Epic album!!, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 11, Name: Parachutes, Description: So good, Cost: 149.0, RRP: 3000.0, ProductType: 1, Categories: [], Id: 33, Name: Mylo Xyloto, Description: Coldplay, 2012, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 6], Id: 34, Name: Streets of Gold, Description: 3oh!3, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [6, 11], Id: 37, Name: Yeesus, Description: Kanye West, Cost: 149.0, RRP: 1000.0, ProductType: 1, Categories: [1, 11], Id: 38, Name: Hybrid, Description: Linkin, Cost: 200.0, RRP: 201.0, ProductType: 1, Categories: [], Id: 39, Name: Hybrid Theory, Description: Linkin Park, Cost: 149.0, RRP: 200.0, ProductType: 1, Categories: [1], Id: 40, Name: odalys, Description: best mom, Cost: 100.0, RRP: 200.0, ProductType: 1, Categories: [1, 4], Id: 109, Name: Prod1, Description: desc1, Cost: 1.0, RRP: 1.0, ProductType: 1, Categories: [], Id: 110, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [], Id: 111, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: []] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.CREATE_PRODUCT - Product created: Id: 113, Name: Night Visions, Description: Imagine Dragons, Cost: 149.0, RRP: 400.0, ProductType: 1, Categories: [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [1] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.UPDATE_PRODUCT - Updated product: Id: 117, Name: Night Visionsadfa, Description: Imagine Dragonsadfa, Cost: 1439.0, RRP: 4030.0, ProductType: 1, Categories: [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_CATEGORIES - Found categories:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.DELETE_PRODUCT - Product with product id= 120  deleted 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_COST - Found products:  [] 
+2014-02-24 12:53:51 ProductDAO [TRACE] ProductDAO.GET_PRODUCT_BY_NAME - Found products:  [] 
+2014-02-24 12:53:51 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  123  wtih a quantity of:  8 
+2014-02-24 12:53:52 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:53:52 ShoppingCartDAO [ERROR] ShoppingCartDAO.RESET_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:53:52 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  -50  from user:  bbq@test.se 
+2014-02-24 12:53:52 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  20  product of id:  131  to user:  bbq@test.se 
+2014-02-24 12:53:52 ShoppingCartDAO [TRACE] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART - Added  10  product of id:  133  to user:  bbq@test.se 
+2014-02-24 12:53:52 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:53:52 ShoppingCartDAO [ERROR] ShoppingCartDAO.UPDATE_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
+2014-02-24 12:53:52 ShoppingCartDAO [TRACE] ShoppingCartDAO.RESET_SHOPPING_CART - Resetted shopping cart of user:  bbq@test.se 
+2014-02-24 12:53:52 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`webshop`.`shopping_cart`, CONSTRAINT `user_shopping_FK` FOREIGN KEY (`user_email`) REFERENCES `users` (`email`) ON DELETE CASCADE ON UPDATE NO ACTION)
+2014-02-24 12:53:52 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Out of range value for column 'product_id' at row 1
+2014-02-24 12:53:52 ShoppingCartDAO [TRACE] ShoppingCartDAO.UPDATE_CART - Updated cart of user:  bbq@test.se  for product:  145  wtih a quantity of:  0 
+2014-02-24 12:53:52 ShoppingCartDAO [ERROR] ShoppingCartDAO.ADD_PRODUCT_TO_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: quantity can not be negative
+2014-02-24 12:53:52 ShoppingCartDAO [TRACE] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART - Removed product  149  from user:  bbq@test.se 
+2014-02-24 12:53:52 ShoppingCartDAO [TRACE] ShoppingCartDAO.GET_SHOPPING_SHOPPING_CART_CONTENTS - Get shopping cart from user:  bbq@test.se 
+2014-02-24 12:53:52 ShoppingCartDAO [ERROR] ShoppingCartDAO.REMOVE_PRODUCT_FROM_SHOPPING_CART: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:53:52 UserDAO [TRACE] UserDAO.UPDATE_USER - User updated:  User: bbq1@test.se Firstname: To1m Lastname: White5more Dob: 1949-09-09 Telephone: 0807384756 Address: Telegra1fvagen 32 C/O Olsen Stoc5kholm postc1ode  
+2014-02-24 12:53:52 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Column 'password' cannot be null
+2014-02-24 12:53:52 UserDAO [TRACE] UserDAO.GET_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
+2014-02-24 12:53:52 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User validated:  bbq1@test.se 
+2014-02-24 12:53:52 UserDAO [TRACE] UserDAO.GET_ALL_USERS - User not validated:  bbq1@test.se 
+2014-02-24 12:53:52 UserDAO [TRACE] UserDAO.DELETE_USER - User deleted:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  
+2014-02-24 12:53:52 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: user can not be null
+2014-02-24 12:53:52 UserDAO [ERROR] UserDAO.ADD_USER: se.jiv.webshop.exception.WebshopAppException: Duplicate entry 'bbq1@test.se' for key 'PRIMARY'
+2014-02-24 12:53:52 UserDAO [TRACE] UserDAO.GET_ALL_USERS - All users get from database:  [User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: bbq@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode , User: isabella Firstname: isabella Lastname: rodriguez Dob: 1992-11-30 Telephone: 0700093719 Address: kavallerigatan dde upplands 19475 , User: ook@ Firstname: hello Lastname: ok Dob: 1992-01-02 Telephone: 05905425235 Address: okorke ofdk stockholm 14343 ] 
+2014-02-24 12:53:52 UserDAO [TRACE] UserDAO.ADD_USER - User added:  User: bbq1@test.se Firstname: Tom Lastname: Whitemore Dob: 1949-09-09 Telephone: 0807384756 Address: Telegrafvagen 32 C/O Olsen Stockholm postcode  

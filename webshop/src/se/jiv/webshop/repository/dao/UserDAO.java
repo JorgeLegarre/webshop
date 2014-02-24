@@ -17,7 +17,22 @@ import se.jiv.webshop.utils.Log;
 public final class UserDAO extends GeneralDAO implements UserRepository {
 	private static final Logger LOGGER = Logger.getLogger(UserDAO.class
 			.getSimpleName());
+	
+	private void prepareStatementFromModel(PreparedStatement pstmt,
+			UserModel user) throws SQLException {
+		pstmt.setString(1, user.getPassword());
+		pstmt.setString(2, user.getFirstname());
+		pstmt.setString(3, user.getLastname());
+		pstmt.setString(4, user.getDob());
+		pstmt.setString(5, user.getTelephone());
+		pstmt.setString(6, user.getAddress1());
+		pstmt.setString(7, user.getAddress2());
+		pstmt.setString(8, user.getTown());
+		pstmt.setString(9, user.getPostcode());
+		pstmt.setString(10, user.getEmail());
 
+	}
+	
 	@Override
 	public void addUser(UserModel user) throws WebshopAppException {
 		if (isValidUser(user, "ADD_USER")) {
@@ -54,11 +69,13 @@ public final class UserDAO extends GeneralDAO implements UserRepository {
 			try (Connection conn = getConnection()) {
 
 				String sql = "UPDATE users SET password = ?, firstname = ?, lastname = ?, dob = STR_TO_DATE(?, '%Y-%m-%d'), telephone = ?, address1 = ?, "
-						+ "address2 = ?, town = ?, postcode = ? WHERE email = ?";
+						+ "address2 = ?, town = ?, postcode = ?, email = ? WHERE id = ?";
 
 				try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
 					prepareStatementFromModel(pstmt, user);
-
+					//Where clausure
+					setInteger(pstmt, 11, user.getId());
+					
 					pstmt.executeUpdate();
 
 					Log.logOut(LOGGER, this, "UPDATE_USER", "User updated: ",
@@ -208,6 +225,7 @@ public final class UserDAO extends GeneralDAO implements UserRepository {
 	}
 
 	private UserModel parseModel(ResultSet rs) throws SQLException {
+		int db_id = rs.getInt("id");
 		String db_email = rs.getString("email");
 		String db_password = rs.getString("password");
 		String db_firstname = rs.getString("firstname");
@@ -220,24 +238,9 @@ public final class UserDAO extends GeneralDAO implements UserRepository {
 		String db_postcode = rs.getString("postcode");
 
 		return new UserModel.Builder(db_email, db_password, db_firstname,
-				db_lastname, db_address1, db_town, db_postcode)
+				db_lastname, db_address1, db_town, db_postcode).id(db_id)
 				.address2(db_address2).dob(db_dob).telephone(db_telephone)
 				.build();
-	}
-
-	private void prepareStatementFromModel(PreparedStatement pstmt,
-			UserModel user) throws SQLException {
-		pstmt.setString(1, user.getPassword());
-		pstmt.setString(2, user.getFirstname());
-		pstmt.setString(3, user.getLastname());
-		pstmt.setString(4, user.getDob());
-		pstmt.setString(5, user.getTelephone());
-		pstmt.setString(6, user.getAddress1());
-		pstmt.setString(7, user.getAddress2());
-		pstmt.setString(8, user.getTown());
-		pstmt.setString(9, user.getPostcode());
-		pstmt.setString(10, user.getEmail());
-
 	}
 
 	private boolean isValidUser(UserModel user, String functionName)

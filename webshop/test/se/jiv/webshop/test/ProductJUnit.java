@@ -57,7 +57,8 @@ public class ProductJUnit {
 
 		List<Integer> categories = getCategories(conn, id);
 
-		return ProductModel.builder(name, productType).id(id)
+		return new ProductModel
+				.Builder(name, productType).id(id)
 				.description(description).cost(price).rrp(rrp)
 				.categories(categories).build();
 	}
@@ -147,7 +148,8 @@ public class ProductJUnit {
 
 	@Before
 	public void setUp() throws Exception {
-		prod_id1 = ProductJUnit.insertProduct(ProductModel.builder("Prod1", 1)
+		prod_id1 = ProductJUnit.insertProduct(new ProductModel
+				.Builder("Prod1", 1)
 				.description("desc1").cost(1).rrp(1).build());
 	}
 
@@ -158,7 +160,8 @@ public class ProductJUnit {
 
 	@Test
 	public void canCreateProduct() {
-		ProductModel addedProduct = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		ProductModel getProduct = null;
 		try {
@@ -176,9 +179,11 @@ public class ProductJUnit {
 
 	@Test
 	public void canGetProductsByName() {
-		ProductModel addedProduct1 = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct1 = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400).build();
-		ProductModel addedProduct2 = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct2 = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		List<ProductModel> products = null;
 
@@ -213,7 +218,8 @@ public class ProductJUnit {
 
 	@Test
 	public void canGetProductById() {
-		ProductModel addedProduct = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		ProductModel getProduct = null;
 		try {
@@ -242,9 +248,11 @@ public class ProductJUnit {
 
 	@Test
 	public void canGetAllProducts() {
-		ProductModel addedProduct1 = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct1 = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400).build();
-		ProductModel addedProduct2 = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct2 = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		List<ProductModel> products = null;
 		boolean isProduct1 = false;
@@ -279,10 +287,11 @@ public class ProductJUnit {
 
 	@Test
 	public void canUpdateProduct() {
-		ProductModel addedProduct = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400).build();
-		ProductModel updatedProduct = ProductModel
-				.builder("Night Visionsadfa", 1)
+		ProductModel updatedProduct = new ProductModel
+				.Builder("Night Visionsadfa", 1)
 				.description("Imagine Dragonsadfa").cost(1439).rrp(4030)
 				.build();
 		ProductModel getProduct = null;
@@ -307,7 +316,8 @@ public class ProductJUnit {
 
 	@Test
 	public void canDeleteProduct() {
-		ProductModel addedProduct = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		ProductModel getProduct = null;
 		try {
@@ -328,7 +338,8 @@ public class ProductJUnit {
 
 	@Test
 	public void canGetProductsByCost() {
-		ProductModel addedProduct = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 
 		List<ProductModel> products = null;
@@ -372,7 +383,8 @@ public class ProductJUnit {
 		List<Integer> categories = new ArrayList<>();
 		categories.add(CategoryJUnit.getACategory());
 
-		ProductModel addedProduct = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400)
 				.categories(categories).build();
 
@@ -420,7 +432,8 @@ public class ProductJUnit {
 
 		List<Integer> categories_retrieved = null;
 
-		ProductModel addedProduct = ProductModel.builder("Night Visions", 1)
+		ProductModel addedProduct = new ProductModel
+				.Builder("Night Visions", 1)
 				.description("Imagine Dragons").cost(149).rrp(400)
 				.categories(categories).build();
 

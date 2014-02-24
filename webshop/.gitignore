@@ -1,1 +1,5 @@
 /bin
+.metadata
+.project
+/logs
+.DS_Store

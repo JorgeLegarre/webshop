@@ -114,7 +114,7 @@ public class CategoryJUnit {
 		try (Connection conn = DevDBConfig.getConnection()) {
 			try (Statement stmt = conn.createStatement()) {
 
-				String sql = "select max(staff_responsible) from webshop.categories";
+				String sql = "select max(staff_responsible) from categories";
 
 				try (ResultSet rs = stmt.executeQuery(sql)) {
 					if (rs.next()) {
@@ -133,7 +133,7 @@ public class CategoryJUnit {
 		try (Connection conn = DevDBConfig.getConnection()) {
 			try (Statement stmt = conn.createStatement()) {
 
-				String sql = "select * from webshop.categories where id = "
+				String sql = "select * from categories where id = "
 						+ id;
 
 				try (ResultSet rs = stmt.executeQuery(sql)) {
@@ -157,7 +157,7 @@ public class CategoryJUnit {
 		try (Connection conn = DevDBConfig.getConnection()) {
 			try (Statement stmt = conn.createStatement()) {
 
-				String sql = "select * from webshop.categories where name = '"
+				String sql = "select * from categories where name = '"
 						+ name + "'";
 
 				try (ResultSet rs = stmt.executeQuery(sql)) {

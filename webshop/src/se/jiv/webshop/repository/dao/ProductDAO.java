@@ -60,7 +60,7 @@ public class ProductDAO extends GeneralDAO implements ProductRepository {
 		}
 
 		ProductModel newProduct = new ProductModel
-				.Builder(product.getName(), product.getProductType())
+				.Builder(product.getName())
 				.id(generatedId).description(product.getDescription())
 				.cost(product.getCost()).rrp(product.getRrp())
 				.categories(product.getCategories()).build();
@@ -74,7 +74,7 @@ public class ProductDAO extends GeneralDAO implements ProductRepository {
 	protected int insertProduct(Connection conn, ProductModel product)
 			throws SQLException {
 		int generatedId = ProductModel.DEFAULT_PRODUCT_ID;
-		String sql = "INSERT INTO products(name,description,cost,rrp, product_type) VALUES(?,?,?,?,?)";
+		String sql = "INSERT INTO products(name,description,cost,rrp) VALUES(?,?,?,?)";
 
 		try (PreparedStatement pstmt = conn.prepareStatement(sql,
 				Statement.RETURN_GENERATED_KEYS)) {
@@ -82,7 +82,6 @@ public class ProductDAO extends GeneralDAO implements ProductRepository {
 			setString(pstmt, 2, product.getDescription());
 			setDouble(pstmt, 3, product.getCost());
 			setDouble(pstmt, 4, product.getRrp());
-			setInteger(pstmt, 5, product.getProductType());
 
 			pstmt.executeUpdate();
 
@@ -161,15 +160,14 @@ public class ProductDAO extends GeneralDAO implements ProductRepository {
 	private int updateProduct(Connection conn, ProductModel product)
 			throws SQLException {
 
-		String sql = "UPDATE products SET name = ?, description = ?, cost = ?, rrp = ?, product_type = ? WHERE id = ?";
+		String sql = "UPDATE products SET name = ?, description = ?, cost = ?, rrp = ? WHERE id = ?";
 
 		try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
 			setString(pstmt, 1, product.getName());
 			setString(pstmt, 2, product.getDescription());
 			setDouble(pstmt, 3, product.getCost());
 			setDouble(pstmt, 4, product.getRrp());
-			setInteger(pstmt, 5, product.getProductType());
-			setInteger(pstmt, 6, product.getId());
+			setInteger(pstmt, 5, product.getId());
 
 			return pstmt.executeUpdate();
 		}
@@ -258,12 +256,11 @@ public class ProductDAO extends GeneralDAO implements ProductRepository {
 		String description = rs.getString("description");
 		double price = rs.getDouble("cost");
 		double rrp = rs.getDouble("rrp");
-		int productType = rs.getInt("product_type");
 
 		List<Integer> categories = getCategories(conn, id);
 
 		return new ProductModel
-				.Builder(name, productType).id(id)
+				.Builder(name).id(id)
 				.description(description).cost(price).rrp(rrp)
 				.categories(categories).build();
 	}
@@ -336,7 +333,7 @@ public class ProductDAO extends GeneralDAO implements ProductRepository {
 
 		try (Connection conn = getConnection()) {
 
-			String sql = "SELECT id, name, description, cost, rrp,product_type FROM product_categories "
+			String sql = "SELECT id, name, description, cost, rrp FROM product_categories "
 					+ "INNER JOIN products ON product_id = products.id"
 					+ " WHERE category_id = ?";
 			try (PreparedStatement pstmt = conn.prepareStatement(sql)) {

@@ -39,7 +39,7 @@ public final class ShoppingCartDAO extends GeneralDAO implements
 				Log.logOut(LOGGER, this, "ADD_PRODUCT_TO_SHOPPING_CART",
 						"Added ", String.valueOf(quantity), " product of id: ",
 						String.valueOf(productId), " to user: ",
-						user.getEmail());
+						user.getId() + ""," - ",user.getEmail());
 
 			} catch (SQLException e) {
 				WebshopAppException excep = new WebshopAppException(e, this
@@ -64,7 +64,7 @@ public final class ShoppingCartDAO extends GeneralDAO implements
 
 				Log.logOut(LOGGER, this, "REMOVE_PRODUCT_FROM_SHOPPING_CART",
 						"Removed product ", String.valueOf(productId),
-						" from user: ", user.getEmail());
+						" from user: ",user.getId()+""," - ", user.getEmail());
 
 			} catch (SQLException e) {
 				WebshopAppException excep = new WebshopAppException(e, this
@@ -92,7 +92,7 @@ public final class ShoppingCartDAO extends GeneralDAO implements
 				}
 
 				Log.logOut(LOGGER, this, "UPDATE_CART",
-						"Updated cart of user: ", user.getEmail(),
+						"Updated cart of user: ",user.getId()+""," - ", user.getEmail(),
 						" for product: ", String.valueOf(productId),
 						" wtih a quantity of: ", String.valueOf(quantity));
 
@@ -114,15 +114,15 @@ public final class ShoppingCartDAO extends GeneralDAO implements
 
 			try (Connection conn = getConnection()) {
 
-				String sql = "DELETE FROM shopping_cart WHERE user_email = ?";
+				String sql = "DELETE FROM shopping_cart WHERE user_id = ?";
 				try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
 
-					setString(pstmt, 1, user.getEmail());
+					setInteger(pstmt, 1, user.getId());
 
 					pstmt.executeUpdate();
 
 					Log.logOut(LOGGER, this, "RESET_SHOPPING_CART",
-							"Resetted shopping cart of user: ", user.getEmail());
+							"Resetted shopping cart of user: ",user.getId()+""," - ", user.getEmail());
 				}
 			} catch (SQLException e) {
 				WebshopAppException excep = new WebshopAppException(
@@ -143,9 +143,9 @@ public final class ShoppingCartDAO extends GeneralDAO implements
 
 			try (Connection conn = getConnection()) {
 
-				String sql = "SELECT product_id, quantity FROM shopping_cart WHERE user_email = ?";
+				String sql = "SELECT product_id, quantity FROM shopping_cart WHERE user_id = ?";
 				try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-					setString(pstmt, 1, user.getEmail());
+					setInteger(pstmt, 1, user.getId());
 
 					try (ResultSet rs = pstmt.executeQuery()) {
 
@@ -158,7 +158,7 @@ public final class ShoppingCartDAO extends GeneralDAO implements
 						Log.logOut(LOGGER, this,
 								"GET_SHOPPING_SHOPPING_CART_CONTENTS",
 								"Get shopping cart from user: ",
-								user.getEmail());
+								user.getId()+""," - ",user.getEmail());
 
 						return contents;
 					}
@@ -179,9 +179,9 @@ public final class ShoppingCartDAO extends GeneralDAO implements
 	private int getProductQuantity(Connection conn, UserModel user,
 			int productId) throws SQLException {
 
-		String sql = "SELECT quantity FROM shopping_cart WHERE user_email = ? and product_id = ?";
+		String sql = "SELECT quantity FROM shopping_cart WHERE user_id = ? and product_id = ?";
 		try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-			setString(pstmt, 1, user.getEmail());
+			setInteger(pstmt, 1, user.getId());
 			setInteger(pstmt, 2, productId);
 
 			try (ResultSet rs = pstmt.executeQuery()) {
@@ -198,9 +198,9 @@ public final class ShoppingCartDAO extends GeneralDAO implements
 
 	private void deleteProductFromShoppingCart(Connection conn, UserModel user,
 			int productId) throws SQLException {
-		String sql = "DELETE FROM shopping_cart WHERE user_email = ? and product_id = ?";
+		String sql = "DELETE FROM shopping_cart WHERE user_id = ? and product_id = ?";
 		try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-			setString(pstmt, 1, user.getEmail());
+			setInteger(pstmt, 1, user.getId());
 			setInteger(pstmt, 2, productId);
 
 			pstmt.executeUpdate();
@@ -210,9 +210,9 @@ public final class ShoppingCartDAO extends GeneralDAO implements
 
 	private void insertProductQuantity(Connection conn, UserModel user,
 			int productId, int newQuantity) throws SQLException {
-		String sql = "INSERT INTO shopping_cart (user_email, product_id, quantity) VALUES (?, ?, ?)";
+		String sql = "INSERT INTO shopping_cart (user_id, product_id, quantity) VALUES (?, ?, ?)";
 		try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-			setString(pstmt, 1, user.getEmail());
+			setInteger(pstmt, 1, user.getId());
 			setInteger(pstmt, 2, productId);
 			setInteger(pstmt, 3, newQuantity);
 

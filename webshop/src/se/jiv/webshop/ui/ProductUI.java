@@ -12,7 +12,6 @@ public final class ProductUI extends GeneralUI {
 		boolean manyCategories = true;
 		List<Integer> categories = new ArrayList<>();
 
-		int productType = readIntWithLabel("Product type: ");
 		String name = readStringWithLabel("Name: ");
 		String description = readStringWithLabel("Description: ");
 		double cost = readDoubleWithLabel("Cost: ");
@@ -32,7 +31,7 @@ public final class ProductUI extends GeneralUI {
 		}
 
 		return new ProductModel
-				.Builder(name, productType).description(description)
+				.Builder(name).description(description)
 				.cost(cost).rrp(rrp).categories(categories).id(id).build();
 	}
 

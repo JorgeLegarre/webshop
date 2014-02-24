@@ -8,7 +8,7 @@ public class DevDBConfig {
 	// DEVELOP DB - Hardcode, we don't use DB properties to avoid test in
 	// production
 	public static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-	public static final String DB_URL = "jdbc:mysql://localhost/webshop";
+	public static final String DB_URL = "jdbc:mysql://localhost/webshop_egen";
 	public static final String DB_USER = "javamaster";
 	public static final String DB_PASSWORD = "java";
 

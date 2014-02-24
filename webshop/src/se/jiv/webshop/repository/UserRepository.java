@@ -6,7 +6,7 @@ import se.jiv.webshop.exception.WebshopAppException;
 import se.jiv.webshop.model.UserModel;
 
 public interface UserRepository {
-	public void addUser(UserModel user) throws WebshopAppException;
+	public UserModel addUser(UserModel user) throws WebshopAppException;
 
 	public void updateUser(UserModel user) throws WebshopAppException;
 

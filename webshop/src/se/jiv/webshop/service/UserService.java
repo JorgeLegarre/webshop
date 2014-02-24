@@ -18,8 +18,8 @@ public final class UserService {
 		this.shoppingCartRepository = shoppingCartRepository;
 	}
 
-	public void addUser(UserModel user) throws WebshopAppException {
-		userRepository.addUser(user);
+	public UserModel addUser(UserModel user) throws WebshopAppException {
+		return userRepository.addUser(user);
 	}
 
 	public void updateUser(UserModel user) throws WebshopAppException {

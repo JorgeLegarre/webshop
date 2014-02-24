@@ -88,6 +88,20 @@ public final class UserModel {
 		this.postcode = builder.postcode;
 	}
 	
+	public UserModel(int id, UserModel other){
+		this.id = id;
+		this.email = other.email;
+		this.password = other.password;
+		this.firstname = other.firstname;
+		this.lastname = other.lastname;
+		this.dob = other.dob;
+		this.telephone = other.telephone;
+		this.address1 = other.address1;
+		this.address2 = other.address2;
+		this.town = other.town;
+		this.postcode = other.postcode;
+	}
+	
 	public int getId(){
 		return id;
 	}

@@ -12,12 +12,10 @@ public final class ProductModel {
 	private final double cost;
 	private final double rrp;
 	private final List<Integer> categories;
-	private final int productType;
 
 	public static class Builder {
 		// Required parameters
 		private final String name;
-		private final int productType;
 
 
 		// optional parameters
@@ -27,10 +25,9 @@ public final class ProductModel {
 		private double rrp;
 		private final List<Integer> categories;
 
-		public Builder(String name, int productType) {
+		public Builder(String name) {
 			this.name = name;
-			this.productType = productType;
-
+			
 			id = DEFAULT_PRODUCT_ID;
 			description = "";
 			cost = 0;
@@ -78,7 +75,6 @@ public final class ProductModel {
 		this.cost = builder.cost;
 		this.rrp = builder.rrp;
 		this.categories = builder.categories;
-		this.productType = builder.productType;
 	}
 
 	public ProductModel(int id, ProductModel other) {
@@ -88,7 +84,6 @@ public final class ProductModel {
 		this.cost = other.cost;
 		this.rrp = other.rrp;
 		this.categories = other.categories;
-		this.productType = other.productType;
 	}
 
 	public int getId() {
@@ -115,11 +110,7 @@ public final class ProductModel {
 		return categories;
 	}
 
-	public int getProductType() {
-		return productType;
-	}
-
-	@Override
+		@Override
 	public int hashCode() {
 		if (id != DEFAULT_PRODUCT_ID) {
 			return 37 * id;
@@ -131,7 +122,6 @@ public final class ProductModel {
 		hash += cost;
 		hash += rrp;
 		hash *= categories.hashCode();
-		hash *= productType;
 
 		return hash;
 	}
@@ -154,7 +144,6 @@ public final class ProductModel {
 			isEqual = isEqual && other.cost == this.cost;
 			isEqual = isEqual && other.rrp == this.rrp;
 			isEqual = isEqual && other.categories.equals(this.categories);
-			isEqual = isEqual && other.productType == this.productType;
 
 			return isEqual;
 
@@ -177,9 +166,8 @@ public final class ProductModel {
 		categoriesTxt += "]";
 
 		return String
-				.format("Id: %s, Name: %s, Description: %s, Cost: %s, RRP: %s, ProductType: %s, Categories: %s",
-						id, name, description, cost, rrp, productType,
-						categoriesTxt);
+				.format("Id: %s, Name: %s, Description: %s, Cost: %s, RRP: %s, Categories: %s",
+						id, name, description, cost, rrp, categoriesTxt);
 	}
 
 }

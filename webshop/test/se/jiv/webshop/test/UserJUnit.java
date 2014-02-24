@@ -11,8 +11,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import se.jiv.webshop.exception.WebshopAppException;
@@ -21,11 +19,7 @@ import se.jiv.webshop.repository.dao.UserDAO;
 
 public class UserJUnit {
 	UserDAO ud = new UserDAO();
-	UserModel user1 = new UserModel.Builder("bbq@test.se", "123456", "Tom",
-			"Whitemore", "Telegrafvagen 32", "Stockholm", "postcode")
-			.address2("C/O Olsen").dob("1949-09-09").telephone("0807384756")
-			.build();
-
+	
 	private static void prepareStatementFromModel(PreparedStatement pstmt,
 			UserModel user) throws SQLException {
 		pstmt.setString(1, user.getEmail());
@@ -41,25 +35,36 @@ public class UserJUnit {
 
 	}
 
-	static void insertUser(UserModel user) {
+	static UserModel insertUser(UserModel user) {
 		try (Connection conn = DevDBConfig.getConnection()) {
 			String sql = "INSERT INTO users (email, password, firstname, lastname, dob, telephone, address1, address2, town, postcode)"
 					+ " VALUES (?,?,?,?,STR_TO_DATE(?, '%Y-%m-%d'),?,?,?,?,?)";
-			try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+			try (PreparedStatement pstmt = conn.prepareStatement(sql,
+					Statement.RETURN_GENERATED_KEYS)) {
 				prepareStatementFromModel(pstmt, user);
 
 				pstmt.executeUpdate();
+				
+				int userId = -1;
+				try (ResultSet rs = pstmt.getGeneratedKeys()) {
+					if (rs.next()) {
+						userId = rs.getInt(1);
+					}
+				}
+				
+				return new UserModel(userId,user);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		return null;
 	}
 
-	static void deleteUser(String email) {
+	static void deleteUser(int id) {
 		try (Connection conn = DevDBConfig.getConnection()) {
-			String sql = "DELETE FROM users WHERE email = ?";
+			String sql = "DELETE FROM users WHERE id = ?";
 			try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-				pstmt.setString(1, email);
+				pstmt.setInt(1, id);
 
 				pstmt.executeUpdate();
 			}
@@ -89,6 +94,7 @@ public class UserJUnit {
 	}
 
 	private UserModel parseModel(ResultSet rs) throws SQLException {
+		int db_id = rs.getInt("id");
 		String db_email = rs.getString("email");
 		String db_password = rs.getString("password");
 		String db_firstname = rs.getString("firstname");
@@ -101,20 +107,21 @@ public class UserJUnit {
 		String db_postcode = rs.getString("postcode");
 
 		return new UserModel.Builder(db_email, db_password, db_firstname,
-				db_lastname, db_address1, db_town, db_postcode)
+				db_lastname, db_address1, db_town, db_postcode).id(db_id)
 				.address2(db_address2).dob(db_dob).telephone(db_telephone)
 				.build();
 	}
 
-	@Before
-	public void setUp() throws WebshopAppException {
-		insertUser(user1);
-	}
-
-	@After
-	public void tearDown() throws Exception {
-		deleteUser(user1.getEmail());
-	}
+//	@Before
+//	public void setUp() throws WebshopAppException {
+//		int userId = insertUser(user1);
+//		user1 = new UserModel(userId,user1);
+//	}
+//
+//	@After
+//	public void tearDown() throws Exception {
+//		deleteUser(user1.getId());
+//	}
 
 	@Test
 	public void canAddUser() {
@@ -126,11 +133,11 @@ public class UserJUnit {
 					.address2("C/O Olsen").dob("1949-09-09")
 					.telephone("0807384756").build();
 
-			ud.addUser(addedUser);
+			addedUser = ud.addUser(addedUser);
 
 			getUser = getUserByEmail(addedUser.getEmail());
 
-			deleteUser(addedUser.getEmail());
+			deleteUser(addedUser.getId());
 		} catch (WebshopAppException e) {
 			e.printStackTrace();
 		}
@@ -176,18 +183,18 @@ public class UserJUnit {
 				"Tom", "Whitemore", "Telegrafvagen 32", "Stockholm", "postcode")
 				.address2("C/O Olsen").dob("1949-09-09")
 				.telephone("0807384756").build();
-
+		
 		boolean exception = false;
 		try {
 
-			insertUser(addedUser);
+			addedUser = insertUser(addedUser);
 
 			ud.addUser(addedUser);
 
 		} catch (WebshopAppException e) {
 			exception = true;
 		}
-		deleteUser(addedUser.getEmail());
+		deleteUser(addedUser.getId());
 		assertTrue(exception);
 
 	}
@@ -199,30 +206,41 @@ public class UserJUnit {
 				.address2("C/O Olsen").dob("1949-09-09")
 				.telephone("0807384756").build();
 		UserModel getUser = null;
+
 		try {
-			insertUser(addedUser);
+			addedUser = insertUser(addedUser);
+			
+			
 			getUser = ud.getUser(addedUser.getEmail());
 		} catch (WebshopAppException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		deleteUser(addedUser.getEmail());
+		deleteUser(addedUser.getId());
 		assertEquals(addedUser, getUser);
 	}
 
 	@Test
 	public void canGetAllUsers() {
-		UserModel addedUser = new UserModel.Builder("bbq1@test.se", "123456",
+		UserModel addedUser1 = new UserModel.Builder("bbq1@test.se", "123456",
+				"Tom", "Whitemore", "Telegrafvagen 32", "Stockholm", "postcode")
+				.address2("C/O Olsen").dob("1949-09-09")
+				.telephone("0807384756").build();
+		UserModel addedUser2 = new UserModel.Builder("bbq2@test.se", "123456",
 				"Tom", "Whitemore", "Telegrafvagen 32", "Stockholm", "postcode")
 				.address2("C/O Olsen").dob("1949-09-09")
 				.telephone("0807384756").build();
 
 		List<UserModel> getUsers = new ArrayList<UserModel>();
-
+		
 		try {
-			insertUser(addedUser);
+			addedUser1 = insertUser(addedUser1);
+			addedUser2 = insertUser(addedUser2);
+			
 			getUsers = ud.getAllUsers();
-			deleteUser(addedUser.getEmail());
+			
+			deleteUser(addedUser1.getId());
+			deleteUser(addedUser2.getId());
 
 		} catch (WebshopAppException e) {
 			// TODO Auto-generated catch block
@@ -232,10 +250,10 @@ public class UserJUnit {
 		boolean finded1 = false;
 		boolean finded2 = false;
 		for (UserModel user : getUsers) {
-			if (addedUser.equals(user)) {
+			if (addedUser1.equals(user)) {
 				finded1 = true;
 			}
-			if (user1.equals(user)) {
+			if (addedUser2.equals(user)) {
 				finded2 = true;
 			}
 		}
@@ -250,20 +268,23 @@ public class UserJUnit {
 				"Tom", "Whitemore", "Telegrafvagen 32", "Stockholm", "postcode")
 				.address2("C/O Olsen").dob("1949-09-09")
 				.telephone("0807384756").build();
+		
 		UserModel updatedUser = new UserModel.Builder("bbq1@test.se", "523456",
 				"To1m", "White5more", "Telegra1fvagen 32", "Stoc5kholm",
 				"postc1ode").address2("C/O Olsen").dob("1949-09-09")
 				.telephone("0807384756").build();
+		
 		UserModel getUser = null;
-
+		
 		try {
-			insertUser(addedUser);
+			addedUser = insertUser(addedUser);
+			updatedUser = new UserModel(addedUser.getId(),updatedUser);
 
 			ud.updateUser(updatedUser);
 
 			getUser = getUserByEmail(addedUser.getEmail());
 
-			deleteUser(addedUser.getEmail());
+			deleteUser(addedUser.getId());
 
 		} catch (WebshopAppException e) {
 			// TODO Auto-generated catch block
@@ -280,12 +301,12 @@ public class UserJUnit {
 				"Tom", "Whitemore", "Telegrafvagen 32", "Stockholm", "postcode")
 				.address2("C/O Olsen").dob("1949-09-09")
 				.telephone("0807384756").build();
-
-		insertUser(addedUser);
+		
+		addedUser = insertUser(addedUser);
 		try {
 			ud.deleteUser(addedUser);
 			getUser = ud.getUser(addedUser.getEmail());
-			deleteUser(addedUser.getEmail());
+			deleteUser(addedUser.getId());
 		} catch (WebshopAppException e) {
 			e.printStackTrace();
 		}
@@ -298,16 +319,16 @@ public class UserJUnit {
 				"Tom", "Whitemore", "Telegrafvagen 32", "Stockholm", "postcode")
 				.address2("C/O Olsen").dob("1949-09-09")
 				.telephone("0807384756").build();
-
+		
 		boolean loggedIn = false;
 		boolean loggedInFailed = false;
 		try {
-			insertUser(addedUser);
+			addedUser = insertUser(addedUser);
 
 			loggedIn = ud.validateLogin(addedUser.getEmail(),
 					addedUser.getPassword());
 			loggedInFailed = ud.validateLogin(addedUser.getEmail(), "tabasco");
-			deleteUser(addedUser.getEmail());
+			deleteUser(addedUser.getId());
 		} catch (WebshopAppException e) {
 			e.printStackTrace();
 		}

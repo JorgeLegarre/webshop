@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,17 +35,26 @@ public final class UserDAO extends GeneralDAO implements UserRepository {
 	}
 	
 	@Override
-	public void addUser(UserModel user) throws WebshopAppException {
+	public UserModel addUser(UserModel user) throws WebshopAppException {
+		int generatedId = UserModel.DEFAULT_USER_ID;
 		if (isValidUser(user, "ADD_USER")) {
 
 			try (Connection conn = getConnection()) {
 
 				String sql = "INSERT INTO users (password, firstname, lastname, dob, telephone, address1, address2, town, postcode, email)"
 						+ "VALUES (?, ?, ?, STR_TO_DATE(?, '%Y-%m-%d'), ?, ?, ?, ?, ?, ?)";
-				try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+				try (PreparedStatement pstmt = conn.prepareStatement(sql,Statement.RETURN_GENERATED_KEYS)) {
 					prepareStatementFromModel(pstmt, user);
 
 					pstmt.executeUpdate();
+					
+					try (ResultSet rs = pstmt.getGeneratedKeys()) {
+
+						if (rs.next()) {
+							generatedId = rs.getInt(1);
+						}
+
+					}
 
 					Log.logOut(LOGGER, this, "ADD_USER", "User added: ",
 							user.toString());
@@ -58,6 +68,10 @@ public final class UserDAO extends GeneralDAO implements UserRepository {
 				throw excep;
 			}
 		}
+		
+		UserModel newUser = new UserModel(generatedId, user);
+		
+		return newUser;
 
 	}
 

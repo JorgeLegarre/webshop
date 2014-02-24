@@ -12,8 +12,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import se.jiv.webshop.exception.WebshopAppException;
@@ -21,7 +19,6 @@ import se.jiv.webshop.model.ProductModel;
 import se.jiv.webshop.repository.dao.ProductDAO;
 
 public class ProductJUnit {
-	private int prod_id1 = -1;
 	private final ProductDAO pd = new ProductDAO();
 
 	private static List<Integer> getCategories(Connection conn, int id)
@@ -53,27 +50,25 @@ public class ProductJUnit {
 		String description = rs.getString("description");
 		double price = rs.getDouble("cost");
 		double rrp = rs.getDouble("rrp");
-		int productType = rs.getInt("product_type");
 
 		List<Integer> categories = getCategories(conn, id);
 
 		return new ProductModel
-				.Builder(name, productType).id(id)
+				.Builder(name).id(id)
 				.description(description).cost(price).rrp(rrp)
 				.categories(categories).build();
 	}
 
-	static int insertProduct(ProductModel product) {
+	static ProductModel insertProduct(ProductModel product) {
 		try (Connection conn = DevDBConfig.getConnection()) {
-			String sql = "INSERT INTO products (name, description,cost,rrp,product_type)"
-					+ " VALUES (?,?,?,?,?)";
+			String sql = "INSERT INTO products (name, description,cost,rrp)"
+					+ " VALUES (?,?,?,?)";
 			try (PreparedStatement pstmt = conn.prepareStatement(sql,
 					Statement.RETURN_GENERATED_KEYS)) {
 				pstmt.setString(1, product.getName());
 				pstmt.setString(2, product.getDescription());
 				pstmt.setDouble(3, product.getCost());
 				pstmt.setDouble(4, product.getRrp());
-				pstmt.setInt(5, product.getProductType());
 
 				pstmt.executeUpdate();
 
@@ -87,12 +82,12 @@ public class ProductJUnit {
 				insertProductCategories(conn, productId,
 						product.getCategories());
 
-				return productId;
+				return new ProductModel(productId,product);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		return -1;
+		return null;
 	}
 
 	private static void insertProductCategories(Connection conn, int productId,
@@ -146,22 +141,10 @@ public class ProductJUnit {
 		return null;
 	}
 
-	@Before
-	public void setUp() throws Exception {
-		prod_id1 = ProductJUnit.insertProduct(new ProductModel
-				.Builder("Prod1", 1)
-				.description("desc1").cost(1).rrp(1).build());
-	}
-
-	@After
-	public void tearDown() throws Exception {
-		deleteProduct(prod_id1);
-	}
-
 	@Test
 	public void canCreateProduct() {
 		ProductModel addedProduct = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		ProductModel getProduct = null;
 		try {
@@ -180,18 +163,16 @@ public class ProductJUnit {
 	@Test
 	public void canGetProductsByName() {
 		ProductModel addedProduct1 = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		ProductModel addedProduct2 = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		List<ProductModel> products = null;
 
 		try {
-			addedProduct1 = new ProductModel(insertProduct(addedProduct1),
-					addedProduct1);
-			addedProduct2 = new ProductModel(insertProduct(addedProduct2),
-					addedProduct2);
+			addedProduct1 = insertProduct(addedProduct1);
+			addedProduct2 = insertProduct(addedProduct2);
 
 			products = pd.getProductByName(addedProduct1.getName());
 
@@ -219,12 +200,11 @@ public class ProductJUnit {
 	@Test
 	public void canGetProductById() {
 		ProductModel addedProduct = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		ProductModel getProduct = null;
 		try {
-			addedProduct = new ProductModel(insertProduct(addedProduct),
-					addedProduct);
+			addedProduct = insertProduct(addedProduct);
 			getProduct = pd.getProductById(addedProduct.getId());
 
 			deleteProduct(addedProduct.getId());
@@ -249,20 +229,18 @@ public class ProductJUnit {
 	@Test
 	public void canGetAllProducts() {
 		ProductModel addedProduct1 = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		ProductModel addedProduct2 = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		List<ProductModel> products = null;
 		boolean isProduct1 = false;
 		boolean isProduct2 = false;
 
 		try {
-			addedProduct1 = new ProductModel(insertProduct(addedProduct1),
-					addedProduct1);
-			addedProduct2 = new ProductModel(insertProduct(addedProduct2),
-					addedProduct2);
+			addedProduct1 = insertProduct(addedProduct1);
+			addedProduct2 = insertProduct(addedProduct2);
 
 			products = pd.getAllProducts();
 
@@ -288,17 +266,16 @@ public class ProductJUnit {
 	@Test
 	public void canUpdateProduct() {
 		ProductModel addedProduct = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		ProductModel updatedProduct = new ProductModel
-				.Builder("Night Visionsadfa", 1)
+				.Builder("Night Visionsadfa")
 				.description("Imagine Dragonsadfa").cost(1439).rrp(4030)
 				.build();
 		ProductModel getProduct = null;
 
 		try {
-			addedProduct = new ProductModel(insertProduct(addedProduct),
-					addedProduct);
+			addedProduct = insertProduct(addedProduct);
 			updatedProduct = new ProductModel(addedProduct.getId(),
 					updatedProduct);
 
@@ -317,12 +294,11 @@ public class ProductJUnit {
 	@Test
 	public void canDeleteProduct() {
 		ProductModel addedProduct = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 		ProductModel getProduct = null;
 		try {
-			addedProduct = new ProductModel(insertProduct(addedProduct),
-					addedProduct);
+			addedProduct = insertProduct(addedProduct);
 
 			pd.deleteProduct(addedProduct.getId());
 
@@ -339,14 +315,13 @@ public class ProductJUnit {
 	@Test
 	public void canGetProductsByCost() {
 		ProductModel addedProduct = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400).build();
 
 		List<ProductModel> products = null;
 		boolean isInResult = false;
 		try {
-			addedProduct = new ProductModel(insertProduct(addedProduct),
-					addedProduct);
+			addedProduct = insertProduct(addedProduct);
 
 			products = pd.getProductsByCost(addedProduct.getCost());
 
@@ -384,15 +359,14 @@ public class ProductJUnit {
 		categories.add(CategoryJUnit.getACategory());
 
 		ProductModel addedProduct = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400)
 				.categories(categories).build();
 
 		List<ProductModel> products = null;
 		boolean isInResult = false;
 		try {
-			addedProduct = new ProductModel(insertProduct(addedProduct),
-					addedProduct);
+			addedProduct = insertProduct(addedProduct);
 
 			products = pd.getProductsByCategory(addedProduct.getCategories()
 					.get(0));
@@ -433,13 +407,12 @@ public class ProductJUnit {
 		List<Integer> categories_retrieved = null;
 
 		ProductModel addedProduct = new ProductModel
-				.Builder("Night Visions", 1)
+				.Builder("Night Visions")
 				.description("Imagine Dragons").cost(149).rrp(400)
 				.categories(categories).build();
 
 		try {
-			addedProduct = new ProductModel(insertProduct(addedProduct),
-					addedProduct);
+			addedProduct = insertProduct(addedProduct);
 			categories_retrieved = pd.getCategoriesOfProduct(addedProduct
 					.getId());
 

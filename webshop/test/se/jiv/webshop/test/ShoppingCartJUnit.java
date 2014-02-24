@@ -37,8 +37,8 @@ public class ShoppingCartJUnit {
 		Map<Integer, Integer> ret = new HashMap<>();
 		try (Connection conn = DevDBConfig.getConnection()) {
 			try (Statement stmt = conn.createStatement()) {
-				String sql = "select * from shopping_cart where user_email = '"
-						+ user.getEmail() + "'";
+				String sql = "select * from shopping_cart where user_id = "
+						+ user.getId();
 
 				try (ResultSet rs = stmt.executeQuery(sql)) {
 					while (rs.next()) {
@@ -58,8 +58,8 @@ public class ShoppingCartJUnit {
 	private void deleteShoppingCartUser(UserModel user) {
 		try (Connection conn = DevDBConfig.getConnection()) {
 			try (Statement stmt = conn.createStatement()) {
-				String sql = "delete from shopping_cart where user_email = '"
-						+ user.getEmail() + "'";
+				String sql = "delete from shopping_cart where user_id = "
+						+ user.getId();
 
 				stmt.executeUpdate(sql);
 			}
@@ -69,11 +69,11 @@ public class ShoppingCartJUnit {
 
 	}
 
-	private void insertShoppingCart(String email, int prod_id, int quant) {
+	private void insertShoppingCart(int user_id, int prod_id, int quant) {
 		try (Connection conn = DevDBConfig.getConnection()) {
 			try (Statement stmt = conn.createStatement()) {
-				String sql = "insert into shopping_cart(user_email,product_id,quantity) values ('"
-						+ email + "', " + prod_id + ", " + quant + ")";
+				String sql = "insert into shopping_cart(user_id,product_id,quantity) values ("
+						+ user_id + ", " + prod_id + ", " + quant + ")";
 
 				stmt.executeUpdate(sql);
 			}
@@ -84,18 +84,19 @@ public class ShoppingCartJUnit {
 
 	@Before
 	public void setUp() throws WebshopAppException {
-		UserJUnit.insertUser(user1);
+		user1 = UserJUnit.insertUser(user1);
+		
 		prod_id1 = ProductJUnit.insertProduct(new ProductModel
-				.Builder("Prod1", 1)
-				.description("desc1").cost(1).rrp(1).build());
+				.Builder("Prod1")
+				.description("desc1").cost(1).rrp(1).build()).getId();
 		prod_id2 = ProductJUnit.insertProduct(new ProductModel
-				.Builder("Prod2", 1)
-				.description("desc2").cost(2).rrp(2).build());
+				.Builder("Prod2")
+				.description("desc2").cost(2).rrp(2).build()).getId();
 	}
 
 	@After
 	public void tearDown() throws Exception {
-		UserJUnit.deleteUser(user1.getEmail());
+		UserJUnit.deleteUser(user1.getId());
 		ProductJUnit.deleteProduct(prod_id1);
 		ProductJUnit.deleteProduct(prod_id2);
 	}
@@ -120,7 +121,7 @@ public class ShoppingCartJUnit {
 	public void canAddProductToCartThatExist() {
 		Map<Integer, Integer> sc = new HashMap<>();
 		try {
-			insertShoppingCart(user1.getEmail(), prod_id1, 20);
+			insertShoppingCart(user1.getId(), prod_id1, 20);
 			shoppingCart.addProductToCart(user1, prod_id1, 10);
 
 			sc = getShoppingCart(user1);
@@ -188,7 +189,7 @@ public class ShoppingCartJUnit {
 	public void canRemoveProductFromCart() {
 		Map<Integer, Integer> sc_inserted = new HashMap<>();
 		try {
-			insertShoppingCart(user1.getEmail(), prod_id1, 20);
+			insertShoppingCart(user1.getId(), prod_id1, 20);
 
 			shoppingCart.removeProductFromCart(user1, prod_id1);
 			sc_inserted = getShoppingCart(user1);
@@ -226,7 +227,7 @@ public class ShoppingCartJUnit {
 	public void canUpdateCart() {
 		Map<Integer, Integer> sc = new LinkedHashMap<>();
 		try {
-			insertShoppingCart(user1.getEmail(), prod_id1, 20);
+			insertShoppingCart(user1.getId(), prod_id1, 20);
 
 			shoppingCart.updateCart(user1, prod_id1, 8);
 			sc = getShoppingCart(user1);
@@ -253,7 +254,7 @@ public class ShoppingCartJUnit {
 	public void canUpdateCartNegativeValue() {
 		boolean exception = false;
 		try {
-			insertShoppingCart(user1.getEmail(), prod_id1, 20);
+			insertShoppingCart(user1.getId(), prod_id1, 20);
 
 			shoppingCart.updateCart(user1, prod_id1, -8);
 		} catch (WebshopAppException e) {
@@ -269,7 +270,7 @@ public class ShoppingCartJUnit {
 	public void canUpdateCartZeroValue() {
 		boolean isNotException = true;
 		try {
-			insertShoppingCart(user1.getEmail(), prod_id1, 20);
+			insertShoppingCart(user1.getId(), prod_id1, 20);
 
 			shoppingCart.updateCart(user1, prod_id1, 0);
 		} catch (WebshopAppException e) {
@@ -285,8 +286,8 @@ public class ShoppingCartJUnit {
 	public void canResetShoppingCart() {
 		boolean isNotException = true;
 		try {
-			insertShoppingCart(user1.getEmail(), prod_id1, 20);
-			insertShoppingCart(user1.getEmail(), prod_id2, 20);
+			insertShoppingCart(user1.getId(), prod_id1, 20);
+			insertShoppingCart(user1.getId(), prod_id2, 20);
 
 			shoppingCart.resetShoppingCart(user1);
 		} catch (WebshopAppException e) {
@@ -313,8 +314,8 @@ public class ShoppingCartJUnit {
 	public void canGetShoppingCart() {
 		Map<Integer, Integer> sc = new LinkedHashMap<>();
 		try {
-			insertShoppingCart(user1.getEmail(), prod_id1, 20);
-			insertShoppingCart(user1.getEmail(), prod_id2, 10);
+			insertShoppingCart(user1.getId(), prod_id1, 20);
+			insertShoppingCart(user1.getId(), prod_id2, 10);
 
 			sc = shoppingCart.getShoppingCart(user1);
 
